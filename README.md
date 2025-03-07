@@ -11,13 +11,13 @@
 
 - 🤝 I’m looking for contributors on [Document Scanner Flutter](https://github.com/ishaquehassan/document_scanner_flutter)
 
-- 📝 I regularly write articles on [https://medium.com/@ishaqhassan](https://medium.com/@ishaqhassan)
+- 📝 I regularly write articles on [Medium](https://medium.com/@ishaqhassan)
 
 - 💬 Ask me about **Flutter, Android (Kotlin/Java), iOS (Swift), PHP, VueJS, React Native**
 
-- 📫 How to reach me **ishaquehassan@gmail.com**
+- 📫 How to reach me [ishaquehassan@gmail.com](mailto:ishaquehassan@gmail.com)
 
-- 📄 Know about my experiences [https://www.linkedin.com/in/ishaq-hassan-3543b462/](https://www.linkedin.com/in/ishaq-hassan-3543b462/)
+- 📄 Know about my experiences [Linkedin](https://www.linkedin.com/in/ishaquehassan/)
 
 - ⚡ Fun fact **I love to teach & explore about software development!**
 
