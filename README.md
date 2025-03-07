@@ -5,7 +5,7 @@
 
 <p align="left"> <a href="https://twitter.com/ishaque_hassan" target="blank"><img src="https://img.shields.io/twitter/follow/ishaque_hassan?logo=twitter&style=for-the-badge" alt="ishaque_hassan" /></a> </p>
 
-- 🔭 I’m currently working at [Pocket Systems](https://pocketsystems.net)
+- 🔭 I'm working as an Engineering Manager at [DigitalHire](https://digitalhire.com/)
 
 - 🌱 I’m currently learning **VueJs, Solidity**
 
