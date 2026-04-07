@@ -87,7 +87,7 @@ Leading engineering for an AI-powered recruitment platform built with Flutter (W
 <sub>63 stars, 135+ forks<br>across plugins</sub>
 </td>
 <td align="center" width="25%">
-<img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/medium/medium-original.svg" />
+<img width="60" src="https://img.shields.io/badge/M-000000?style=for-the-badge&logo=medium&logoColor=white" />
 <br><strong>Technical Writing</strong><br>
 <sub>4+ articles on Flutter<br>internals & architecture</sub>
 </td>
