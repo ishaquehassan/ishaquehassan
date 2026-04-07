@@ -25,14 +25,6 @@ When I'm not shipping features at work, I'm either submitting PRs to the framewo
 
 ---
 
-### 🏆 Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ishaquehassan&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10" />
-</div>
-
----
-
 ### 🔥 Flutter Framework PRs (Merged)
 
 These are contributions to the official [flutter/flutter](https://github.com/flutter/flutter) repository, the framework that millions of developers use:
@@ -160,12 +152,6 @@ Claude Code on your phone. Remote terminal for Claude sessions over WebSocket PT
 </div>
 
 ---
-
-### 📈 Contribution Graph
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ishaquehassan&theme=tokyo-night&hide_border=true&bg_color=0d1117&area=true" width="95%" />
-</div>
 
 ---
 
