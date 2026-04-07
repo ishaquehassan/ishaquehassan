@@ -48,7 +48,7 @@ Areas: widget rendering, animation APIs, parameter forwarding, `AnimatedCrossFad
 
 **[DigitalHire](https://digitalhire.com)** - The World's First Integrated Talent Engine
 
-Leading engineering for an AI-powered recruitment platform that combines video job boards, on-demand video interviews, and a fully trained AI recruiting agent. The platform sources, screens, schedules, and automates hiring workflows across calls, texts, and email.
+Leading engineering for an AI-powered recruitment platform built with Flutter (Web + Mobile). Combines video job boards, on-demand video interviews, and a fully trained AI recruiting agent. The platform sources, screens, schedules, and automates hiring workflows across calls, texts, and email.
 
 **Impact:** 50% reduction in time-to-hire, 40% lower cost-to-hire, 70% faster screening through video resumes, integrates with 9+ ATS systems including Greenhouse and Workday.
 
