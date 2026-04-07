@@ -25,6 +25,14 @@ When I'm not shipping features at work, I'm either submitting PRs to the framewo
 
 ---
 
+### 🏆 Trophies
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=ishaquehassan&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10" />
+</div>
+
+---
+
 ### 🔥 Flutter Framework PRs (Merged)
 
 These are contributions to the official [flutter/flutter](https://github.com/flutter/flutter) repository, the framework that millions of developers use:
@@ -103,16 +111,18 @@ Claude Code on your phone. Remote terminal for Claude sessions over WebSocket PT
 
 ---
 
-### 📝 Writing
+### 📝 Latest Articles
 
-Technical articles on Flutter internals and architecture:
-
+<!-- BLOG-POST-LIST:START -->
 | Article | Read Time |
 |---------|:---------:|
 | [How Flutter's Three-Tree Architecture Actually Works](https://medium.com/@ishaqhassan/how-flutters-three-tree-architecture-actually-works-953c8cc17226) | 4 min |
 | [How I Got My Pull Requests Merged Into Flutter](https://medium.com/@ishaqhassan/how-i-got-my-pull-requests-merged-98d055f3270e) | 5 min |
 | [Dart Isolates: The Missing Guide for Production Apps](https://medium.com/@ishaqhassan/dart-isolates-the-missing-guide-66ed990ced3e) | 5 min |
 | [A Journey with Flutter Native Plugin Development](https://medium.com/@ishaqhassan/a-journey-with-flutter-native-plugin-development-for-ios-android-aaf7518db804) | 3 min |
+<!-- BLOG-POST-LIST:END -->
+
+➡️ [...more on Medium](https://medium.com/@ishaqhassan)
 
 ---
 
@@ -147,6 +157,14 @@ Technical articles on Flutter internals and architecture:
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=ishaquehassan&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&count_private=true" width="48%" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=ishaquehassan&theme=tokyonight&hide_border=true&background=0d1117" width="48%" />
+</div>
+
+---
+
+### 📈 Contribution Graph
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ishaquehassan&theme=tokyo-night&hide_border=true&bg_color=0d1117&area=true" width="95%" />
 </div>
 
 ---
