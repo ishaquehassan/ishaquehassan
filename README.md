@@ -1,43 +1,151 @@
-<h1 align="center">Hi 👋, I'm Ishaq Hassan</h1>
-<h3 align="center">A Passionate Flutter Developer</h3>
+<div align="center">
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=ishaquehassan&label=Profile%20views&color=0e75b6&style=flat" alt="ishaquehassan" /> </p>
+# Ishaq Hassan
 
-<p align="left"> <a href="https://twitter.com/ishaque_hassan" target="blank"><img src="https://img.shields.io/twitter/follow/ishaque_hassan?logo=twitter&style=for-the-badge" alt="ishaque_hassan" /></a> </p>
+**Flutter Framework Contributor** · **Engineering Manager** · **Open Source Author**
 
-- 🔭 I'm working as an Engineering Manager at [DigitalHire](https://digitalhire.com/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ishaquehassan/)
+[![Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@ishaqhassan)
+[![Stack Overflow](https://img.shields.io/badge/Stack_Overflow-F58025?style=for-the-badge&logo=stackoverflow&logoColor=white)](https://stackoverflow.com/users/2094696/ishaq-hassan)
+[![Website](https://img.shields.io/badge/ishaqhassan.dev-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://ishaqhassan.dev)
 
-- 🌱 I’m currently learning **VueJs, Solidity**
+<img src="https://komarev.com/ghpvc/?username=ishaquehassan&label=Profile%20views&color=0e75b6&style=flat" />
 
-- 🤝 I’m looking for contributors on [Document Scanner Flutter](https://github.com/ishaquehassan/document_scanner_flutter)
+</div>
 
-- 📝 I regularly write articles on [Medium](https://medium.com/@ishaqhassan)
+---
 
-- 💬 Ask me about **Flutter, Android (Kotlin/Java), iOS (Swift), PHP, VueJS, React Native**
+<img align="right" width="300" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ishaquehassan&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" />
 
-- 📫 How to reach me [ishaquehassan@gmail.com](mailto:ishaquehassan@gmail.com)
+### `> whoami`
 
-- 📄 Know about my experiences [Linkedin](https://www.linkedin.com/in/ishaquehassan/)
+13+ years in software engineering. Currently **Engineering Manager** at [DigitalHire](https://digitalhire.ai), building AI-powered hiring tools.
 
-- ⚡ Fun fact **I love to teach & explore about software development!**
+I contribute directly to the **Flutter framework** itself. Not just using it, building it. Working on widget rendering, animation APIs, and cross-fade transitions inside `flutter/flutter`.
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://dev.to/ishaquehassan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="ishaquehassan" height="30" width="40" /></a>
-<a href="https://twitter.com/ishaque_hassan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="ishaque_hassan" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/ishaq-hassan-3543b462" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="ishaq-hassan-3543b462" height="30" width="40" /></a>
-<a href="https://stackoverflow.com/users/2094696" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="2094696" height="30" width="40" /></a>
-<a href="https://fb.com/ishaquehassan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="ishaquehassan" height="30" width="40" /></a>
-<a href="https://instagram.com/ishaquehassan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="ishaquehassan" height="30" width="40" /></a>
-<a href="https://medium.com/@ishaqhassan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@ishaqhassan" height="30" width="40" /></a>
-<a href="https://www.youtube.com/c/ishaquehassan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="ishaquehassan" height="30" width="40" /></a>
-</p>
+When I'm not shipping features at work, I'm either submitting PRs to the framework or building open source tools that automate developer workflows.
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://cordova.apache.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_cordova/apache_cordova-icon.svg" alt="apachecordova" width="40" height="40"/> </a> <a href="https://codeigniter.com" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/codeigniter.svg" alt="codeigniter" width="40" height="40"/> </a> <a href="https://dart.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="dart" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://kotlinlang.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="kotlin" width="40" height="40"/> </a> <a href="https://laravel.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain-wordmark.svg" alt="laravel" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"> <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/> </a> <a href="https://realm.io/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/bestofjs/bestofjs-webui/8665e8c267a0215f3159df28b33c365198101df5/public/logos/realm.svg" alt="realm" width="40" height="40"/> </a> <a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> </a> <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a> <a href="https://developer.apple.com/swift/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/swift/swift-original.svg" alt="swift" width="40" height="40"/> </a> <a href="https://vuejs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/> </a> <a href="https://www.adobe.com/products/xd.html" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/adobe-xd.svg" alt="xd" width="40" height="40"/> </a> </p>
+<br clear="right"/>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=ishaquehassan&show_icons=true&locale=en&layout=compact" alt="ishaquehassan" /></p>
+---
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=ishaquehassan&show_icons=true&locale=en" alt="ishaquehassan" /></p>
+### 🔥 Flutter Framework PRs (Merged)
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ishaquehassan&" alt="ishaquehassan" /></p>
+These are contributions to the official [flutter/flutter](https://github.com/flutter/flutter) repository, the framework that millions of developers use:
+
+```diff
++ PR #183081  ✓ Merged
++ PR #183097  ✓ Merged
++ PR #183109  ✓ Merged
+```
+
+Areas: widget rendering, animation APIs, parameter forwarding, `AnimatedCrossFade` internals.
+
+---
+
+### 🛠 Open Source
+
+<table>
+<tr>
+<td width="50%">
+
+**[document_scanner_flutter](https://github.com/ishaquehassan/document_scanner_flutter)**
+
+Flutter plugin for document scanning on iOS & Android. Native camera integration, edge detection, perspective correction. Listed on official Flutter docs.
+
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+![iOS](https://img.shields.io/badge/iOS-000?style=flat-square&logo=apple&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)
+
+</td>
+<td width="50%">
+
+**[goal-agent](https://github.com/ishaquehassan/goal-agent)**
+
+AI-powered career goal agent for Claude Code. Set any professional goal, get auto-generated strategy, profile optimization, content creation, targeted engagement. Works for any niche.
+
+![Python](https://img.shields.io/badge/Claude_Code-6B4FBB?style=flat-square&logo=anthropic&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-FF6B6B?style=flat-square&logoColor=white)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**[oss-auto-contributor](https://github.com/ishaquehassan/oss-auto-contributor)**
+
+Fully automated open source contribution system. Runs 24/7 on a VPS, scans GitHub repos for issues, prepares PR solutions, queues for approval, publishes daily. Powered by Claude CLI.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Shell](https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter_App-02569B?style=flat-square&logo=flutter&logoColor=white)
+
+</td>
+<td width="50%">
+
+**More projects pinned below** 👇
+
+Spanning Flutter, Dart, native mobile, and developer tooling.
+
+</td>
+</tr>
+</table>
+
+---
+
+### 📝 Writing
+
+Technical articles on Flutter internals and architecture:
+
+| Article | Read Time |
+|---------|:---------:|
+| [How Flutter's Three-Tree Architecture Actually Works](https://medium.com/@ishaqhassan/how-flutters-three-tree-architecture-actually-works-953c8cc17226) | 4 min |
+| [How I Got My Pull Requests Merged Into Flutter](https://medium.com/@ishaqhassan/how-i-got-my-pull-requests-merged-98d055f3270e) | 5 min |
+| [Dart Isolates: The Missing Guide for Production Apps](https://medium.com/@ishaqhassan/dart-isolates-the-missing-guide-66ed990ced3e) | 5 min |
+| [A Journey with Flutter Native Plugin Development](https://medium.com/@ishaqhassan/a-journey-with-flutter-native-plugin-development-for-ios-android-aaf7518db804) | 3 min |
+
+---
+
+### 💻 Tech Stack
+
+<div align="center">
+
+**Mobile & Framework**
+
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white)
+
+**Backend & Tools**
+
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+</div>
+
+---
+
+### 📊 Stats
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ishaquehassan&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&count_private=true" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ishaquehassan&theme=tokyonight&hide_border=true&background=0d1117" width="48%" />
+</div>
+
+---
+
+<div align="center">
+
+**Building Flutter from the inside out.**
+
+📧 [hello@ishaqhassan.dev](mailto:hello@ishaqhassan.dev)
+
+</div>
