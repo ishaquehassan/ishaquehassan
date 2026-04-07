@@ -15,8 +15,6 @@
 
 ---
 
-<img align="right" width="300" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ishaquehassan&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" />
-
 ### `> whoami`
 
 13+ years in software engineering. Currently **Engineering Manager** at [DigitalHire](https://digitalhire.ai), building AI-powered hiring tools.
@@ -24,8 +22,6 @@
 I contribute directly to the **Flutter framework** itself. Not just using it, building it. Working on widget rendering, animation APIs, and cross-fade transitions inside `flutter/flutter`.
 
 When I'm not shipping features at work, I'm either submitting PRs to the framework or building open source tools that automate developer workflows.
-
-<br clear="right"/>
 
 ---
 
