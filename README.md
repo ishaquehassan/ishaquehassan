@@ -50,7 +50,7 @@ Areas: widget rendering, animation APIs, parameter forwarding, `AnimatedCrossFad
 <tr>
 <td width="50%">
 
-**[document_scanner_flutter](https://github.com/ishaquehassan/document_scanner_flutter)**
+**[document_scanner_flutter](https://github.com/ishaquehassan/document_scanner_flutter)** ⭐ 63
 
 Flutter plugin for document scanning on iOS & Android. Native camera integration, edge detection, perspective correction. Listed on official Flutter docs.
 
@@ -62,32 +62,36 @@ Flutter plugin for document scanning on iOS & Android. Native camera integration
 </td>
 <td width="50%">
 
-**[goal-agent](https://github.com/ishaquehassan/goal-agent)**
+**[flutter_alarm_background_trigger](https://github.com/ishaquehassan/flutter_alarm_background_trigger)** ⭐ 13
 
-AI-powered career goal agent for Claude Code. Set any professional goal, get auto-generated strategy, profile optimization, content creation, targeted engagement. Works for any niche.
+Flutter plugin for launching apps from background at specific times. Native Kotlin implementation with platform channels, just like stock Android alarm behavior.
 
-![Python](https://img.shields.io/badge/Claude_Code-6B4FBB?style=flat-square&logo=anthropic&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP-FF6B6B?style=flat-square&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-**[oss-auto-contributor](https://github.com/ishaquehassan/oss-auto-contributor)**
+**[goal-agent](https://github.com/ishaquehassan/goal-agent)**
 
-Fully automated open source contribution system. Runs 24/7 on a VPS, scans GitHub repos for issues, prepares PR solutions, queues for approval, publishes daily. Powered by Claude CLI.
+AI-powered career goal agent for Claude Code. Set any professional goal, auto-generate strategy, optimize profiles, create content, engage with target audience. Cross-platform, works for any niche.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Shell](https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter_App-02569B?style=flat-square&logo=flutter&logoColor=white)
+![Claude Code](https://img.shields.io/badge/Claude_Code-6B4FBB?style=flat-square&logo=anthropic&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-FF6B6B?style=flat-square&logoColor=white)
 
 </td>
 <td width="50%">
 
-**More projects pinned below** 👇
+**[claude-remote-terminal](https://github.com/ishaquehassan/claude-remote-terminal)**
 
-Spanning Flutter, Dart, native mobile, and developer tooling.
+Claude Code on your phone. Remote terminal for Claude sessions over WebSocket PTY. Run AI coding sessions from anywhere, full terminal emulation.
+
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=flat-square&logoColor=white)
 
 </td>
 </tr>
