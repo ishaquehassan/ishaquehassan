@@ -44,6 +44,14 @@ Areas: widget rendering, animation APIs, parameter forwarding, `AnimatedCrossFad
 
 ---
 
+### 🎓 Flutter Course (Official Docs Listed)
+
+My Flutter course is listed on the **[official Flutter documentation](https://docs.flutter.dev/resources/courses)**:
+
+> **[Tech Idara - Flutter from Basic to Advanced](https://www.youtube.com/playlist?list=PLX97VxArfzkmXeUqUxeKW7XS8oYraH7A5)** (Urdu)
+
+---
+
 ### 🛠 Open Source
 
 <table>
