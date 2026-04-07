@@ -33,11 +33,12 @@ When I'm not shipping features at work, I'm either submitting PRs to the framewo
 
 These are contributions to the official [flutter/flutter](https://github.com/flutter/flutter) repository, the framework that millions of developers use:
 
-```diff
-+ PR #183081  ✓ Merged
-+ PR #183097  ✓ Merged
-+ PR #183109  ✓ Merged
-```
+| PR | Status |
+|:---|:------:|
+| [#183081](https://github.com/flutter/flutter/pull/183081) | ✅ Merged |
+| [#183097](https://github.com/flutter/flutter/pull/183097) | ✅ Merged |
+| [#183109](https://github.com/flutter/flutter/pull/183109) | ✅ Merged |
+| [#184545](https://github.com/flutter/flutter/pull/184545) | 🔄 Open |
 
 Areas: widget rendering, animation APIs, parameter forwarding, `AnimatedCrossFade` internals.
 
