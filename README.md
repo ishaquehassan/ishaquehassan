@@ -1,8 +1,8 @@
 <div align="center">
+  <img src="banner.png" width="100%" />
+</div>
 
-# Ishaq Hassan
-
-**Flutter Framework Contributor** · **Engineering Manager** · **Open Source Author**
+<div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ishaquehassan/)
 [![Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@ishaqhassan)
@@ -17,7 +17,7 @@
 
 ### `> whoami`
 
-13+ years in software engineering. Currently **Engineering Manager** at [DigitalHire](https://digitalhire.ai), building AI-powered hiring tools.
+13+ years in software engineering. Currently **Engineering Manager** at [DigitalHire](https://digitalhire.com), building the world's first integrated talent engine.
 
 I contribute directly to the **Flutter framework** itself. Not just using it, building it. Working on widget rendering, animation APIs, and cross-fade transitions inside `flutter/flutter`.
 
@@ -37,6 +37,62 @@ These are contributions to the official [flutter/flutter](https://github.com/flu
 | [#184545](https://github.com/flutter/flutter/pull/184545) | 🔄 Open |
 
 Areas: widget rendering, animation APIs, parameter forwarding, `AnimatedCrossFade` internals.
+
+---
+
+### 🚀 Currently Building
+
+<table>
+<tr>
+<td width="60%">
+
+**[DigitalHire](https://digitalhire.com)** - The World's First Integrated Talent Engine
+
+Leading engineering for an AI-powered recruitment platform that combines video job boards, on-demand video interviews, and a fully trained AI recruiting agent. The platform sources, screens, schedules, and automates hiring workflows across calls, texts, and email.
+
+**Impact:** 50% reduction in time-to-hire, 40% lower cost-to-hire, 70% faster screening through video resumes, integrates with 9+ ATS systems including Greenhouse and Workday.
+
+</td>
+<td width="40%" align="center">
+
+![AI](https://img.shields.io/badge/AI_Recruiting_Agent-6B4FBB?style=flat-square&logoColor=white)
+![Video](https://img.shields.io/badge/Video_Interviews-E44D26?style=flat-square&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter_Mobile-02569B?style=flat-square&logo=flutter&logoColor=white)
+![Node](https://img.shields.io/badge/Node.js_Backend-339933?style=flat-square&logo=node.js&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+
+</td>
+</tr>
+</table>
+
+---
+
+### 🎯 Contribution Highlights
+
+<table>
+<tr>
+<td align="center" width="25%">
+<img width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" />
+<br><strong>Flutter Framework</strong><br>
+<sub>3 PRs merged into<br>the official repo</sub>
+</td>
+<td align="center" width="25%">
+<img width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" />
+<br><strong>Flutter Docs</strong><br>
+<sub>Course listed on<br>official documentation</sub>
+</td>
+<td align="center" width="25%">
+<img width="50" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" />
+<br><strong>Open Source</strong><br>
+<sub>63 stars, 135+ forks<br>across plugins</sub>
+</td>
+<td align="center" width="25%">
+<img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/medium/medium-original.svg" />
+<br><strong>Technical Writing</strong><br>
+<sub>4+ articles on Flutter<br>internals & architecture</sub>
+</td>
+</tr>
+</table>
 
 ---
 
