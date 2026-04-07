@@ -147,11 +147,16 @@ Claude Code on your phone. Remote terminal for Claude sessions over WebSocket PT
 ### 📊 Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ishaquehassan&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&count_private=true" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ishaquehassan&theme=tokyonight&hide_border=true&background=0d1117" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ishaquehassan&theme=tokyonight&hide_border=true&background=0d1117" width="60%" />
 </div>
 
 ---
+
+### 📈 Contribution Graph
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ishaquehassan&theme=tokyo-night&hide_border=true&bg_color=0d1117&area=true" width="95%" />
+</div>
 
 ---
 
