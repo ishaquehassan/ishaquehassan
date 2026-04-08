@@ -41,6 +41,43 @@ Areas: widget rendering, animation APIs, parameter forwarding, `AnimatedCrossFad
 
 ---
 
+### 🎤 Speaker & Community Leader
+
+<table>
+<tr>
+<td align="center" width="33%">
+<h4>10+</h4>
+<sub>Speaking Events</sub>
+</td>
+<td align="center" width="33%">
+<h4>GDG Mentor</h4>
+<sub>Official Mentor @ GDG Kolachi</sub>
+</td>
+<td align="center" width="33%">
+<h4>Inaugural</h4>
+<sub>Speaker @ Nest I/O DevCircle</sub>
+</td>
+</tr>
+</table>
+
+**Conferences & Events:**
+
+| Event | Venue | Role |
+|:------|:------|:-----|
+| [DevFest Karachi](https://x.com/GDGKolachi) - "Scaling Products with Flutter" | [GDG Kolachi](https://gdg.community.dev/gdg-kolachi/) | Panel Speaker (with Waleed Arshad & Sakina Abbas) |
+| [Google IO Extended Karachi](https://www.facebook.com/GDGKolachi/posts/720743396758626/) | [GDG Kolachi](https://gdg.community.dev/gdg-kolachi/) | Speaker |
+| [Flutter Bootcamp](https://gdg.community.dev/events/details/google-gdg-kolachi-presents-flutter-bootcamp/) | [GDG Kolachi](https://gdg.community.dev/gdg-kolachi/) | Instructor |
+| [Facebook Developer Circle (Inaugural)](https://www.facebook.com/GDGKolachi/posts/722626283237004/) | [The Nest I/O](https://thenestio.com/) | Inaugural Speaker |
+| [Code to Create](https://www.linkedin.com/posts/gdgkolachi_codetocreate-roadtodevfest2025-gdgkolachi-activity-7400908378081767424-EB-7) | [NIC Karachi](https://nickarachi.com/) | Speaker (with Waleed Arshad) |
+| [Flutter Seminar](https://www.linkedin.com/posts/itrathussainzaidi_flutter-iqrauniversity-seminar-activity-7192627199412232192-8t2X) | [Iqra University](https://iqra.edu.pk/) | Speaker |
+| [Industry Academia Seminar](https://www.facebook.com/iqraugc/) | [Iqra University](https://iqra.edu.pk/) | Speaker |
+| [DevNCode Meetup IV - AI](https://medium.com/devncode/devncode-meetup-iv-artificial-intelligence-df8c602de7d5) | [The Nest I/O](https://thenestio.com/) | Speaker |
+| Pakistan's First Flutter Meetup | Karachi | Speaker |
+| Women Tech Makers | Karachi | Speaker |
+| GDG Live Pakistan | Online | Speaker |
+
+---
+
 ### 🚀 Currently Building
 
 <table>
