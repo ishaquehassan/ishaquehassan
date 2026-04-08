@@ -67,14 +67,11 @@ Areas: widget rendering, animation APIs, parameter forwarding, `AnimatedCrossFad
 | [DevFest Karachi 2021](https://x.com/GDGKolachi/status/1466038791257440267) - "Scaling Products with Flutter" | [GDG Kolachi](https://gdg.community.dev/gdg-kolachi/) | Panel Speaker (with Waleed Arshad & Sakina Abbas) |
 | [Google IO Extended Karachi](https://www.facebook.com/GDGKolachi/posts/720743396758626/) | [GDG Kolachi](https://gdg.community.dev/gdg-kolachi/) | Speaker |
 | [Flutter Bootcamp](https://gdg.community.dev/events/details/google-gdg-kolachi-presents-flutter-bootcamp/) | [GDG Kolachi](https://gdg.community.dev/gdg-kolachi/) | Instructor |
-| Facebook Developer Circle (Inaugural) | [The Nest I/O](https://thenestio.com/) | Inaugural Speaker |
 | [Code to Create](https://www.linkedin.com/posts/gdgkolachi_codetocreate-roadtodevfest2025-gdgkolachi-activity-7400908378081767424-EB-7) | [NIC Karachi](https://nickarachi.com/) | Speaker |
 | [Flutter Seminar](https://www.linkedin.com/posts/itrathussainzaidi_flutter-iqrauniversity-seminar-activity-7192627199412232192-8t2X) | [Iqra University](https://iqra.edu.pk/) | Speaker |
 | [Bridging the Gap: Industry Academia](https://www.facebook.com/iqraugc/photos/979777174180554/) | [Iqra University](https://iqra.edu.pk/) | Speaker |
 | [Guest Speaker Seminar 2025](https://www.instagram.com/p/DNcZJQyhmTW/) | [Iqra University](https://iqra.edu.pk/) | Guest Speaker |
 | [DevNCode Meetup IV: AI](https://medium.com/devncode/devncode-meetup-iv-artificial-intelligence-df8c602de7d5) | [The Nest I/O](https://thenestio.com/) | Speaker |
-| Pakistan's First Flutter Meetup 2018 | Karachi | Speaker |
-| Women Tech Makers | Karachi | Speaker |
 
 ---
 
