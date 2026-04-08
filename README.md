@@ -70,6 +70,7 @@ Areas: widget rendering, animation APIs, parameter forwarding, `AnimatedCrossFad
 | [Flutter Seminar](https://www.linkedin.com/posts/itrathussainzaidi_flutter-iqrauniversity-seminar-activity-7192627199412232192-8t2X) | [Iqra University](https://iqra.edu.pk/) | Speaker |
 | [Bridging the Gap: Industry Academia](https://www.facebook.com/iqraugc/photos/979777174180554/) | [Iqra University](https://iqra.edu.pk/) | Speaker |
 | [Guest Speaker Seminar 2025](https://www.instagram.com/p/DNcZJQyhmTW/) | [Iqra University](https://iqra.edu.pk/) | Guest Speaker |
+| [BLAZE 2022](https://azeemabbas.com/blog/2022-08-16-building-communities-with-gdg-kolachi/) - Tech & Non-Tech Workshops | [GDG Kolachi](https://gdg.community.dev/gdg-kolachi/) | Workshop Conductor |
 | [DevNCode Meetup IV: AI](https://medium.com/devncode/devncode-meetup-iv-artificial-intelligence-df8c602de7d5) | [The Nest I/O](https://thenestio.com/) | Speaker |
 
 ---
