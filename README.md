@@ -34,7 +34,8 @@ These are contributions to the official [flutter/flutter](https://github.com/flu
 | [#183081](https://github.com/flutter/flutter/pull/183081) | ✅ Merged |
 | [#183097](https://github.com/flutter/flutter/pull/183097) | ✅ Merged |
 | [#183109](https://github.com/flutter/flutter/pull/183109) | ✅ Merged |
-| [#184545](https://github.com/flutter/flutter/pull/184545) | 🔄 Open |
+| [#184545](https://github.com/flutter/flutter/pull/184545) | ✅ Approved |
+| [#184569](https://github.com/flutter/flutter/pull/184569) | ✅ Approved |
 
 Areas: widget rendering, animation APIs, parameter forwarding, `AnimatedCrossFade` internals.
 
