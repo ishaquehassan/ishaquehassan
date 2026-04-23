@@ -17,27 +17,31 @@
 
 ### `> whoami`
 
-13+ years in software engineering. Currently **Engineering Manager** at [DigitalHire](https://digitalhire.com), building the world's first integrated talent engine.
+**Flutter Framework Contributor from Pakistan.** 13+ years in software engineering, based in Karachi. Currently **Engineering Manager** at [DigitalHire](https://digitalhire.com), building the world's first integrated talent engine.
 
-I contribute directly to the **Flutter framework** itself. Not just using it, building it. Working on widget rendering, animation APIs, and cross-fade transitions inside `flutter/flutter`.
+I contribute directly to the **Flutter framework** itself. **6 Pull Requests merged into the official [flutter/flutter](https://github.com/flutter/flutter) repository** (Google-maintained) with 3 more in active review. Working on widget rendering, animation APIs, documentation, and cross-fade transitions inside `flutter/flutter`.
 
-When I'm not shipping features at work, I'm either submitting PRs to the framework or building open source tools that automate developer workflows.
+Instructor of the **Flutter Urdu course** officially listed on [docs.flutter.dev/resources/courses](https://docs.flutter.dev/resources/courses). GDG Kolachi Mentor. 50+ production apps shipped.
 
 ---
 
-### 🔥 Flutter Framework PRs (Merged)
+### 🔥 Flutter Framework PRs (6 Merged + 3 Open)
 
-These are contributions to the official [flutter/flutter](https://github.com/flutter/flutter) repository, the framework that millions of developers use:
+Contributions to the official [flutter/flutter](https://github.com/flutter/flutter) repository, the framework that millions of developers use:
 
-| PR | Status |
-|:---|:------:|
-| [#183081](https://github.com/flutter/flutter/pull/183081) | ✅ Merged |
-| [#183097](https://github.com/flutter/flutter/pull/183097) | ✅ Merged |
-| [#183109](https://github.com/flutter/flutter/pull/183109) | ✅ Merged |
-| [#184545](https://github.com/flutter/flutter/pull/184545) | ✅ Approved |
-| [#184569](https://github.com/flutter/flutter/pull/184569) | ✅ Approved |
+| PR | Title | Status |
+|:---|:------|:------:|
+| [#184572](https://github.com/flutter/flutter/pull/184572) | Fix LicenseRegistry docs to reference NOTICES | ✅ Merged |
+| [#184569](https://github.com/flutter/flutter/pull/184569) | Add disposal guidance to CurvedAnimation and CurveTween docs | ✅ Merged |
+| [#184545](https://github.com/flutter/flutter/pull/184545) | Add `clipBehavior` parameter to AnimatedCrossFade | ✅ Merged |
+| [#183109](https://github.com/flutter/flutter/pull/183109) | Add `scrollPadding` property to DropdownMenu | ✅ Merged |
+| [#183097](https://github.com/flutter/flutter/pull/183097) | Fix RouteAware.didPushNext documentation | ✅ Merged |
+| [#183081](https://github.com/flutter/flutter/pull/183081) | Use double quotes in settings.gradle.kts template | ✅ Merged |
+| [#183110](https://github.com/flutter/flutter/pull/183110) | Suppress browser word-selection in SelectableText on web right-click | 🔄 Open |
+| [#183079](https://github.com/flutter/flutter/pull/183079) | Guard auto-scroll against Offset.infinite in ScrollableSelectionContainer | 🔄 Open |
+| [#183062](https://github.com/flutter/flutter/pull/183062) | Reset AppBar _scrolledUnder flag when scroll context changes | 🔄 Open |
 
-Areas: widget rendering, animation APIs, parameter forwarding, `AnimatedCrossFade` internals.
+Areas: widget rendering, animation APIs, parameter forwarding, `AnimatedCrossFade` internals, documentation accuracy.
 
 ---
 
@@ -64,13 +68,13 @@ Areas: widget rendering, animation APIs, parameter forwarding, `AnimatedCrossFad
 
 | Event | Venue | Role |
 |:------|:------|:-----|
-| [DevFest Karachi 2021](https://x.com/GDGKolachi/status/1466038791257440267) - "Scaling Products with Flutter" | [GDG Kolachi](https://gdg.community.dev/gdg-kolachi/) | Panel Speaker (with Waleed Arshad & Sakina Abbas) |
+| [DevFest Karachi 2021](https://x.com/GDGKolachi/status/1466038791257440267) "Scaling Products with Flutter" | [GDG Kolachi](https://gdg.community.dev/gdg-kolachi/) | Panel Speaker (with Waleed Arshad & Sakina Abbas) |
 | [Google IO Extended Karachi](https://www.facebook.com/GDGKolachi/posts/720743396758626/) | [GDG Kolachi](https://gdg.community.dev/gdg-kolachi/) | Speaker |
 | [Flutter Bootcamp](https://gdg.community.dev/events/details/google-gdg-kolachi-presents-flutter-bootcamp/) | [GDG Kolachi](https://gdg.community.dev/gdg-kolachi/) | Instructor |
 | [Flutter Seminar](https://www.linkedin.com/posts/itrathussainzaidi_flutter-iqrauniversity-seminar-activity-7192627199412232192-8t2X) | [Iqra University](https://iqra.edu.pk/) | Speaker |
 | [Bridging the Gap: Industry Academia](https://www.facebook.com/iqraugc/photos/979777174180554/) | [Iqra University](https://iqra.edu.pk/) | Speaker |
 | [Guest Speaker Seminar 2025](https://www.instagram.com/p/DNcZJQyhmTW/) | [Iqra University](https://iqra.edu.pk/) | Guest Speaker |
-| [BLAZE 2022](https://azeemabbas.com/blog/2022-08-16-building-communities-with-gdg-kolachi/) - Tech & Non-Tech Workshops | [GDG Kolachi](https://gdg.community.dev/gdg-kolachi/) | Workshop Conductor |
+| [BLAZE 2022](https://azeemabbas.com/blog/2022-08-16-building-communities-with-gdg-kolachi/) Tech & Non-Tech Workshops | [GDG Kolachi](https://gdg.community.dev/gdg-kolachi/) | Workshop Conductor |
 | [DevNCode Meetup IV: AI](https://medium.com/devncode/devncode-meetup-iv-artificial-intelligence-df8c602de7d5) | [The Nest I/O](https://thenestio.com/) | Speaker |
 
 ---
@@ -81,7 +85,7 @@ Areas: widget rendering, animation APIs, parameter forwarding, `AnimatedCrossFad
 <tr>
 <td width="60%">
 
-**[DigitalHire](https://digitalhire.com)** - The World's First Integrated Talent Engine
+**[DigitalHire](https://digitalhire.com)** The World's First Integrated Talent Engine
 
 Leading engineering for an AI-powered recruitment platform built with Flutter (Web + Mobile). Combines video job boards, on-demand video interviews, and a fully trained AI recruiting agent. The platform sources, screens, schedules, and automates hiring workflows across calls, texts, and email.
 
@@ -109,7 +113,7 @@ Leading engineering for an AI-powered recruitment platform built with Flutter (W
 <td align="center" width="25%">
 <img width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" />
 <br><strong>Flutter Framework</strong><br>
-<sub>3 PRs merged into<br>the official repo</sub>
+<sub>6 PRs merged into<br>the official repo</sub>
 </td>
 <td align="center" width="25%">
 <img width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" />
@@ -131,11 +135,13 @@ Leading engineering for an AI-powered recruitment platform built with Flutter (W
 
 ---
 
-### 🎓 Flutter Course (Official Docs Listed)
+### 🎓 Flutter Course in Urdu (Official Docs Listed)
 
-My Flutter course is listed on the **[official Flutter documentation](https://docs.flutter.dev/resources/courses)**:
+My 35-video Flutter course in **Urdu** is officially listed on the **[Flutter documentation](https://docs.flutter.dev/resources/courses)**:
 
-> **[Tech Idara - Flutter from Basic to Advanced](https://www.youtube.com/playlist?list=PLX97VxArfzkmXeUqUxeKW7XS8oYraH7A5)** (Urdu)
+> **[Tech Idara Flutter from Basic to Advanced](https://www.youtube.com/playlist?list=PLX97VxArfzkmXeUqUxeKW7XS8oYraH7A5)** (Urdu)
+
+Covers Dart basics through advanced Flutter (state management, APIs, custom painters, deployment). Free on YouTube.
 
 ---
 
@@ -199,6 +205,7 @@ Claude Code on your phone. Remote terminal for Claude sessions over WebSocket PT
 <!-- BLOG-POST-LIST:START -->
 | Article | Read Time |
 |---------|:---------:|
+| [How a Pakistani Engineer Got 6 PRs Merged Into Flutter's Official Framework](https://medium.com/@ishaqhassan) | 7 min |
 | [How Flutter's Three-Tree Architecture Actually Works](https://medium.com/@ishaqhassan/how-flutters-three-tree-architecture-actually-works-953c8cc17226) | 4 min |
 | [How I Got My Pull Requests Merged Into Flutter](https://medium.com/@ishaqhassan/how-i-got-my-pull-requests-merged-98d055f3270e) | 5 min |
 | [Dart Isolates: The Missing Guide for Production Apps](https://medium.com/@ishaqhassan/dart-isolates-the-missing-guide-66ed990ced3e) | 5 min |
@@ -239,6 +246,18 @@ Claude Code on your phone. Remote terminal for Claude sessions over WebSocket PT
 
 ---
 
+### 🔗 Related Pages
+
+- [Flutter Framework Contributor from Pakistan](https://ishaqhassan.dev/flutter-framework-contributor-pakistan.html)
+- [Flutter Developer in Pakistan](https://ishaqhassan.dev/flutter-developer-pakistan.html)
+- [Flutter Course in Urdu](https://ishaqhassan.dev/flutter-course-urdu.html)
+- [Flutter Core Contributor in Asia](https://ishaqhassan.dev/flutter-core-contributor-asia.html)
+- [Flutter Consultant](https://ishaqhassan.dev/flutter-consultant.html)
+- [Top Flutter Developers in Pakistan](https://ishaqhassan.dev/top-flutter-developers-in-pakistan.html)
+- [Top Flutter Developers in Karachi](https://ishaqhassan.dev/top-flutter-developers-in-karachi.html)
+
+---
+
 ### 📊 Stats
 
 <div align="center">
@@ -257,7 +276,7 @@ Claude Code on your phone. Remote terminal for Claude sessions over WebSocket PT
 
 <div align="center">
 
-**Building Flutter from the inside out.**
+**Building Flutter from the inside out. From Karachi, Pakistan.**
 
 📧 [hello@ishaqhassan.dev](mailto:hello@ishaqhassan.dev)
 
