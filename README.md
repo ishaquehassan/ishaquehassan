@@ -19,7 +19,7 @@
 
 **Flutter Framework Contributor from Pakistan.** 13+ years in software engineering, based in Karachi. Currently **Engineering Manager** at [DigitalHire](https://digitalhire.com), building the world's first integrated talent engine.
 
-I contribute directly to the **Flutter framework** itself. **6 Pull Requests merged into the official [flutter/flutter](https://github.com/flutter/flutter) repository** (Google-maintained) with 3 more in active review. Working on widget rendering, animation APIs, documentation, and cross-fade transitions inside `flutter/flutter`.
+I contribute directly to the **Flutter framework** itself. **6 Pull Requests merged into the [official Flutter repository](https://github.com/flutter/flutter)** (Google-maintained) with 3 more in active review. Working on widget rendering, animation APIs, documentation, and cross-fade transitions inside the Flutter framework.
 
 Instructor of the **Flutter Urdu course** officially listed on [docs.flutter.dev/resources/courses](https://docs.flutter.dev/resources/courses). GDG Kolachi Mentor. 50+ production apps shipped.
 
@@ -27,7 +27,7 @@ Instructor of the **Flutter Urdu course** officially listed on [docs.flutter.dev
 
 ### 🔥 Flutter Framework PRs (6 Merged + 3 Open)
 
-Contributions to the official [flutter/flutter](https://github.com/flutter/flutter) repository, the framework that millions of developers use:
+Contributions to the [official Flutter repository](https://github.com/flutter/flutter), the framework that millions of developers use:
 
 | PR | Title | Status |
 |:---|:------|:------:|
