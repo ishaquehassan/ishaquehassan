@@ -205,14 +205,13 @@ Claude Code on your phone. Remote terminal for Claude sessions over WebSocket PT
 <!-- BLOG-POST-LIST:START -->
 | Article | Read Time |
 |---------|:---------:|
-| [How a Pakistani Engineer Got 6 PRs Merged Into Flutter's Official Framework](https://medium.com/@ishaqhassan) | 7 min |
-| [How Flutter's Three-Tree Architecture Actually Works](https://medium.com/@ishaqhassan/how-flutters-three-tree-architecture-actually-works-953c8cc17226) | 4 min |
-| [How I Got My Pull Requests Merged Into Flutter](https://medium.com/@ishaqhassan/how-i-got-my-pull-requests-merged-98d055f3270e) | 5 min |
-| [Dart Isolates: The Missing Guide for Production Apps](https://medium.com/@ishaqhassan/dart-isolates-the-missing-guide-66ed990ced3e) | 5 min |
-| [A Journey with Flutter Native Plugin Development](https://medium.com/@ishaqhassan/a-journey-with-flutter-native-plugin-development-for-ios-android-aaf7518db804) | 3 min |
+| [Flutter's Three-Tree Architecture Explained: Widgets, Elements, RenderObjects](https://ishaqhassan.dev/blog/flutter-three-tree-architecture-explained.html) | 12 min |
+| [Flutter State Management in 2026: A Decision Guide for Production Apps](https://ishaqhassan.dev/blog/flutter-state-management-2026-guide.html) | 14 min |
+| [Building Production Flutter Plugins: A 156-Likes pub.dev Case Study](https://ishaqhassan.dev/blog/building-production-flutter-plugins-case-study.html) | 11 min |
+| [How a Pakistani Engineer Got 6 PRs Merged Into Flutter's Official Framework](https://ishaqhassan.dev/blog/how-i-got-6-prs-merged-into-flutter.html) | 10 min |
 <!-- BLOG-POST-LIST:END -->
 
-➡️ [...more on Medium](https://medium.com/@ishaqhassan)
+➡️ [More articles on ishaqhassan.dev/blog](https://ishaqhassan.dev/blog/)
 
 ---
 
