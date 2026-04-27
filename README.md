@@ -9,6 +9,10 @@
 [![Stack Overflow](https://img.shields.io/badge/Stack_Overflow-F58025?style=for-the-badge&logo=stackoverflow&logoColor=white)](https://stackoverflow.com/users/2094696/ishaq-hassan)
 [![Website](https://img.shields.io/badge/ishaqhassan.dev-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://ishaqhassan.dev)
 
+[![Flutter Framework Contributor Pakistan](https://img.shields.io/badge/Flutter_Framework_Contributor_Pakistan-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://ishaqhassan.dev/flutter-framework-contributor-pakistan.html)
+[![Flutter Expert Pakistan](https://img.shields.io/badge/Flutter_Expert_Pakistan-13B9FD?style=for-the-badge&logo=flutter&logoColor=white)](https://ishaqhassan.dev/flutter-expert-pakistan.html)
+[![Flutter Course in Urdu](https://img.shields.io/badge/Flutter_Course_in_Urdu-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://ishaqhassan.dev/flutter-course-urdu.html)
+
 <img src="https://komarev.com/ghpvc/?username=ishaquehassan&label=Profile%20views&color=0e75b6&style=flat" />
 
 </div>
