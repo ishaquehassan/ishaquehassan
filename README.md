@@ -41,7 +41,7 @@ Contributions to the [official Flutter repository](https://github.com/flutter/fl
 | [#183109](https://github.com/flutter/flutter/pull/183109) | Add `scrollPadding` property to DropdownMenu | ✅ Merged |
 | [#183097](https://github.com/flutter/flutter/pull/183097) | Fix RouteAware.didPushNext documentation | ✅ Merged |
 | [#183081](https://github.com/flutter/flutter/pull/183081) | Use double quotes in settings.gradle.kts template | ✅ Merged |
-| [#183110](https://github.com/flutter/flutter/pull/183110) | Suppress browser word-selection in SelectableText on web right-click | 🔄 Open |
+| [#185938](https://github.com/flutter/flutter/pull/185938) | Add blendMode parameter to RawImage and RenderImage | 🔄 Open |
 | [#183079](https://github.com/flutter/flutter/pull/183079) | Guard auto-scroll against Offset.infinite in ScrollableSelectionContainer | 🔄 Open |
 | [#183062](https://github.com/flutter/flutter/pull/183062) | Reset AppBar _scrolledUnder flag when scroll context changes | 🔄 Open |
 
@@ -209,6 +209,7 @@ Claude Code on your phone. Remote terminal for Claude sessions over WebSocket PT
 <!-- BLOG-POST-LIST:START -->
 | Article | Read Time |
 |---------|:---------:|
+| [One Spell, Every Kingdom: Why Flutter Still Matters in the AI Era](https://ishaqhassan.dev/blog/flutter-still-matters-in-ai-era.html) | 9 min |
 | [Flutter's Three-Tree Architecture Explained: Widgets, Elements, RenderObjects](https://ishaqhassan.dev/blog/flutter-three-tree-architecture-explained.html) | 12 min |
 | [Flutter State Management in 2026: A Decision Guide for Production Apps](https://ishaqhassan.dev/blog/flutter-state-management-2026-guide.html) | 14 min |
 | [Building Production Flutter Plugins: A 156-Likes pub.dev Case Study](https://ishaqhassan.dev/blog/building-production-flutter-plugins-case-study.html) | 11 min |
@@ -251,6 +252,7 @@ Claude Code on your phone. Remote terminal for Claude sessions over WebSocket PT
 
 ### 🔗 Related Pages
 
+- [Flutter Contributors from Pakistan (2026 listicle)](https://ishaqhassan.dev/flutter-contributors-pakistan.html)
 - [Flutter Framework Contributor from Pakistan](https://ishaqhassan.dev/flutter-framework-contributor-pakistan.html)
 - [Flutter Developer in Pakistan](https://ishaqhassan.dev/flutter-developer-pakistan.html)
 - [Flutter Course in Urdu](https://ishaqhassan.dev/flutter-course-urdu.html)
