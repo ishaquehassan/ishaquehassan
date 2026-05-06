@@ -23,13 +23,13 @@
 
 **Flutter Framework Contributor from Pakistan.** 13+ years in software engineering, based in Karachi. Currently **Engineering Manager** at [DigitalHire](https://digitalhire.com), building the world's first integrated talent engine.
 
-I contribute directly to the **Flutter framework** itself. **6 Pull Requests merged into the [official Flutter repository](https://github.com/flutter/flutter)** (Google-maintained) with 3 more in active review. Working on widget rendering, animation APIs, documentation, and cross-fade transitions inside the Flutter framework.
+I contribute directly to the **Flutter framework** itself. **6 Pull Requests merged into the [official Flutter repository](https://github.com/flutter/flutter)** (Google-maintained) with 4 more in active review. Working on widget rendering, animation APIs, documentation, and cross-fade transitions inside the Flutter framework.
 
 Instructor of the **Flutter Urdu course** officially listed on [docs.flutter.dev/resources/courses](https://docs.flutter.dev/resources/courses). GDG Kolachi Mentor. 50+ production apps shipped.
 
 ---
 
-### 🔥 Flutter Framework PRs (6 Merged + 3 Open)
+### 🔥 Flutter Framework PRs (6 Merged + 4 Open)
 
 Contributions to the [official Flutter repository](https://github.com/flutter/flutter), the framework that millions of developers use:
 
@@ -41,6 +41,7 @@ Contributions to the [official Flutter repository](https://github.com/flutter/fl
 | [#183109](https://github.com/flutter/flutter/pull/183109) | Add `scrollPadding` property to DropdownMenu | ✅ Merged |
 | [#183097](https://github.com/flutter/flutter/pull/183097) | Fix RouteAware.didPushNext documentation | ✅ Merged |
 | [#183081](https://github.com/flutter/flutter/pull/183081) | Use double quotes in settings.gradle.kts template | ✅ Merged |
+| [#186142](https://github.com/flutter/flutter/pull/186142) | Update iOS section of AppLocalizations template to current Xcode workflow | 🔄 Open |
 | [#185938](https://github.com/flutter/flutter/pull/185938) | Add blendMode parameter to RawImage and RenderImage | 🔄 Open |
 | [#183079](https://github.com/flutter/flutter/pull/183079) | Guard auto-scroll against Offset.infinite in ScrollableSelectionContainer | 🔄 Open |
 | [#183062](https://github.com/flutter/flutter/pull/183062) | Reset AppBar _scrolledUnder flag when scroll context changes | 🔄 Open |
