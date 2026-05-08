@@ -1,176 +1,596 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Flutter Framework Contributor — Ishaq Hassan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
-  body {
-    width: 1200px;
-    height: 400px;
-    background: linear-gradient(135deg, #0d1117 0%, #161b22 40%, #0d1117 100%);
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  html, body {
+    background: #05070d;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .banner {
+    position: relative;
+    width: 1584px;
+    height: 440px;
+    background:
+      radial-gradient(ellipse 70% 100% at 50% 120%, rgba(84, 197, 248, 0.22) 0%, rgba(84, 197, 248, 0.04) 40%, transparent 70%),
+      radial-gradient(ellipse 80% 60% at 50% 50%, #0a1628 0%, #060b18 45%, #03060d 100%);
+    overflow: hidden;
+    border-radius: 4px;
+    box-shadow: 0 24px 80px rgba(0, 0, 0, 0.7);
+  }
+
+  /* subtle dot grid */
+  .banner::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(circle at 1px 1px, rgba(84, 197, 248, 0.07) 1px, transparent 0);
+    background-size: 36px 36px;
+    mask-image: radial-gradient(ellipse at center, black 40%, transparent 85%);
+    -webkit-mask-image: radial-gradient(ellipse at center, black 40%, transparent 85%);
+    pointer-events: none;
+  }
+
+  /* vignette edges */
+  .banner::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at center, transparent 55%, rgba(0, 0, 0, 0.55) 100%);
+    pointer-events: none;
+  }
+
+  /* giant dark Flutter logo silhouette behind center-left */
+  .f-shape {
+    position: absolute;
+    left: 270px;
+    top: 45px;
+    width: 250px;
+    height: 305px;
+    z-index: 1;
+    pointer-events: none;
+    filter: drop-shadow(0 0 40px rgba(84, 197, 248, 0.05));
+  }
+
+  /* code snippet (left) */
+  .code {
+    position: absolute;
+    left: 40px;
+    top: 52px;
+    z-index: 2;
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+    font-size: 12.5px;
+    line-height: 1.75;
+    letter-spacing: 0.01em;
+    color: #2e4566;
+    user-select: none;
+  }
+  .code .kw  { color: #4c6b95; }
+  .code .cls { color: #5c85b5; }
+  .code .fn  { color: #4f7aa8; }
+  .code .num { color: #3d6890; }
+  .code .bool { color: #3d6890; }
+  .code .ann { color: #6a4f8a; }
+  .code .prop { color: #3e5d82; }
+  .code .punct { color: #22354f; }
+
+  /* center content */
+  .center {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 3;
+    text-align: center;
+    padding: 0 340px;
+  }
+
+  .eyebrow {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.38em;
+    color: #8ecbf0;
+    text-transform: uppercase;
+    margin-bottom: 18px;
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
-    position: relative;
-  }
-  /* Decorative grid dots */
-  body::before {
-    content: '';
-    position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background-image: radial-gradient(circle, rgba(88, 166, 255, 0.06) 1px, transparent 1px);
-    background-size: 30px 30px;
-  }
-  /* Accent glow */
-  .glow-1 {
-    position: absolute;
-    width: 300px;
-    height: 300px;
-    background: radial-gradient(circle, rgba(56, 189, 248, 0.12) 0%, transparent 70%);
-    top: -80px;
-    right: 100px;
-    border-radius: 50%;
-  }
-  .glow-2 {
-    position: absolute;
-    width: 250px;
-    height: 250px;
-    background: radial-gradient(circle, rgba(139, 92, 246, 0.10) 0%, transparent 70%);
-    bottom: -60px;
-    left: 80px;
-    border-radius: 50%;
-  }
-  .container {
-    position: relative;
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    gap: 60px;
-    padding: 0 80px;
-    width: 100%;
-  }
-  .left {
-    flex: 1;
-  }
-  .name {
-    font-size: 42px;
-    font-weight: 700;
-    color: #e6edf3;
-    letter-spacing: -0.5px;
-    margin-bottom: 8px;
-  }
-  .title {
-    font-size: 18px;
-    color: #7d8590;
-    margin-bottom: 24px;
-    line-height: 1.5;
-  }
-  .title span {
-    color: #58a6ff;
-  }
-  .badges {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-  }
-  .badge {
-    padding: 6px 14px;
-    border-radius: 20px;
-    font-size: 12px;
-    font-weight: 600;
-    letter-spacing: 0.5px;
-    display: flex;
-    align-items: center;
-    gap: 6px;
-  }
-  .badge-blue {
-    background: rgba(56, 189, 248, 0.12);
-    color: #58a6ff;
-    border: 1px solid rgba(56, 189, 248, 0.2);
-  }
-  .badge-purple {
-    background: rgba(139, 92, 246, 0.12);
-    color: #a78bfa;
-    border: 1px solid rgba(139, 92, 246, 0.2);
-  }
-  .badge-green {
-    background: rgba(63, 185, 80, 0.12);
-    color: #3fb950;
-    border: 1px solid rgba(63, 185, 80, 0.2);
-  }
-  .badge-orange {
-    background: rgba(210, 153, 34, 0.12);
-    color: #d29922;
-    border: 1px solid rgba(210, 153, 34, 0.2);
-  }
-  .right {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    min-width: 280px;
-  }
-  .stat-card {
-    background: rgba(22, 27, 34, 0.8);
-    border: 1px solid rgba(48, 54, 61, 0.6);
-    border-radius: 10px;
-    padding: 14px 20px;
-    display: flex;
-    align-items: center;
     gap: 14px;
   }
-  .stat-number {
-    font-size: 28px;
+  .eyebrow .sep {
+    width: 5px;
+    height: 5px;
+    background: #54c5f8;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 0 0 10px rgba(84, 197, 248, 0.6);
+  }
+
+  .headline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+  }
+  .headline-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    line-height: 0.92;
+  }
+
+  .title {
+    font-family: 'Inter', sans-serif;
+    font-size: 84px;
+    font-weight: 800;
+    letter-spacing: -0.028em;
+    color: #ffffff;
+    line-height: 0.95;
+  }
+  .title .blue {
+    color: #54c5f8;
+    background: linear-gradient(180deg, #6ed2fa 0%, #3fb3ea 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 40px rgba(84, 197, 248, 0.25);
+  }
+
+  .badge {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 22px 9px;
+    border: 1.5px solid #54c5f8;
+    border-radius: 14px;
+    background: linear-gradient(180deg, rgba(84, 197, 248, 0.08) 0%, rgba(84, 197, 248, 0.02) 100%);
+    line-height: 1;
+    box-shadow: 0 0 24px rgba(84, 197, 248, 0.15), inset 0 0 20px rgba(84, 197, 248, 0.04);
+    margin-left: 8px;
+  }
+  .badge .num {
+    font-size: 34px;
+    font-weight: 800;
+    color: #54c5f8;
+    letter-spacing: -0.02em;
+    line-height: 1;
+  }
+  .badge .lbl {
+    font-size: 9.5px;
     font-weight: 700;
-    color: #e6edf3;
-    min-width: 50px;
+    letter-spacing: 0.18em;
+    color: #54c5f8;
+    margin-top: 4px;
   }
-  .stat-number.blue { color: #58a6ff; }
-  .stat-number.green { color: #3fb950; }
-  .stat-number.purple { color: #a78bfa; }
+
+  .subtitle {
+    margin-top: 20px;
+    color: #6f89ad;
+    font-size: 13.5px;
+    font-weight: 500;
+    letter-spacing: 0.42em;
+    text-transform: uppercase;
+  }
+
+  /* right stats — premium glass card system */
+  .stats {
+    position: absolute;
+    right: 38px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+    gap: 12px;
+    min-width: 300px;
+  }
+
+  /* connecting spine */
+  .stats::before {
+    content: '';
+    position: absolute;
+    left: 36px;
+    top: 50px;
+    bottom: 50px;
+    width: 1px;
+    background: linear-gradient(180deg,
+      transparent 0%,
+      rgba(84, 197, 248, 0.2) 15%,
+      rgba(84, 197, 248, 0.35) 50%,
+      rgba(84, 197, 248, 0.2) 85%,
+      transparent 100%);
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .stat {
+    position: relative;
+    display: grid;
+    grid-template-columns: 44px 1fr;
+    align-items: center;
+    gap: 18px;
+    padding: 14px 20px 14px 14px;
+    border-radius: 14px;
+    background:
+      linear-gradient(135deg,
+        rgba(84, 197, 248, 0.055) 0%,
+        rgba(84, 197, 248, 0.015) 45%,
+        rgba(10, 22, 40, 0.35) 100%);
+    backdrop-filter: blur(12px) saturate(130%);
+    -webkit-backdrop-filter: blur(12px) saturate(130%);
+    overflow: hidden;
+    isolation: isolate;
+    transition: transform 350ms cubic-bezier(0.22, 1, 0.36, 1),
+                box-shadow 350ms ease;
+    box-shadow:
+      0 1px 0 rgba(255, 255, 255, 0.04) inset,
+      0 8px 24px rgba(0, 0, 0, 0.25);
+  }
+
+  /* gradient border */
+  .stat::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 14px;
+    padding: 1px;
+    background: linear-gradient(135deg,
+      rgba(84, 197, 248, 0.55) 0%,
+      rgba(84, 197, 248, 0.12) 25%,
+      rgba(84, 197, 248, 0.04) 60%,
+      rgba(84, 197, 248, 0.35) 100%);
+    -webkit-mask:
+      linear-gradient(#000 0 0) content-box,
+      linear-gradient(#000 0 0);
+    mask:
+      linear-gradient(#000 0 0) content-box,
+      linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  /* animated shimmer sweep */
+  .stat::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -60%;
+    width: 40%;
+    background: linear-gradient(100deg,
+      transparent 0%,
+      rgba(84, 197, 248, 0.12) 40%,
+      rgba(84, 197, 248, 0.22) 50%,
+      rgba(84, 197, 248, 0.12) 60%,
+      transparent 100%);
+    transform: skewX(-18deg);
+    animation: shimmer 5.5s ease-in-out infinite;
+    pointer-events: none;
+    z-index: 0;
+  }
+  .stat:nth-child(2)::after { animation-delay: 1.4s; }
+  .stat:nth-child(3)::after { animation-delay: 2.8s; }
+
+  @keyframes shimmer {
+    0%, 100% { left: -60%; opacity: 0; }
+    30% { opacity: 1; }
+    70% { opacity: 1; }
+    85%, 100% { left: 140%; opacity: 0; }
+  }
+
+  .stat:hover {
+    transform: translateX(-3px);
+    box-shadow:
+      0 1px 0 rgba(255, 255, 255, 0.06) inset,
+      0 0 0 1px rgba(84, 197, 248, 0.25),
+      0 12px 32px rgba(84, 197, 248, 0.12),
+      0 8px 24px rgba(0, 0, 0, 0.3);
+  }
+
+  /* icon tile */
+  .stat-icon {
+    position: relative;
+    z-index: 2;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 11px;
+    background:
+      radial-gradient(ellipse at 30% 20%, rgba(84, 197, 248, 0.2) 0%, transparent 60%),
+      linear-gradient(135deg, rgba(84, 197, 248, 0.1) 0%, rgba(10, 22, 40, 0.6) 100%);
+    border: 1px solid rgba(84, 197, 248, 0.22);
+    color: #8ecbf0;
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.06),
+      0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  .stat-icon svg {
+    width: 20px;
+    height: 20px;
+    stroke: #6ed2fa;
+    stroke-width: 1.8;
+    fill: none;
+    filter: drop-shadow(0 0 6px rgba(84, 197, 248, 0.5));
+  }
+
+  .stat-body {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    min-width: 0;
+  }
+
+  .stat-num-wrap {
+    display: flex;
+    align-items: baseline;
+    font-variant-numeric: tabular-nums;
+    line-height: 1;
+    min-width: 66px;
+  }
+
+  .stat-num {
+    font-size: 38px;
+    font-weight: 800;
+    letter-spacing: -0.04em;
+    line-height: 1;
+    background: linear-gradient(180deg,
+      #ffffff 0%,
+      #e2f2fb 45%,
+      #9cc9e8 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 2px 10px rgba(84, 197, 248, 0.2));
+  }
+
+  .stat-plus {
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 800;
+    color: #54c5f8;
+    margin-left: 3px;
+    line-height: 1;
+    text-shadow:
+      0 0 12px rgba(84, 197, 248, 0.7),
+      0 0 24px rgba(84, 197, 248, 0.3);
+  }
+
   .stat-label {
+    font-size: 10.5px;
+    font-weight: 700;
+    letter-spacing: 0.24em;
+    color: #b8dcf3;
+    text-transform: uppercase;
+    line-height: 1.45;
+    position: relative;
+  }
+
+  /* tiny corner ornament on each card */
+  .stat-corner {
+    position: absolute;
+    top: 6px;
+    right: 8px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    z-index: 2;
+    opacity: 0.5;
+  }
+  .stat-corner .dot {
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: #54c5f8;
+    box-shadow: 0 0 4px rgba(84, 197, 248, 0.8);
+  }
+  .stat-corner .dot:nth-child(1) { opacity: 0.9; }
+  .stat-corner .dot:nth-child(2) { opacity: 0.6; }
+  .stat-corner .dot:nth-child(3) { opacity: 0.3; }
+
+  .site {
+    position: absolute;
+    right: 44px;
+    bottom: 22px;
+    color: #54c5f8;
     font-size: 13px;
-    color: #7d8590;
-    line-height: 1.3;
+    font-weight: 500;
+    letter-spacing: 0.32em;
+    z-index: 3;
+    text-shadow: 0 0 16px rgba(84, 197, 248, 0.4);
   }
-  .stat-label strong {
-    color: #e6edf3;
-    display: block;
-    font-size: 14px;
+
+  /* accent lines */
+  .accent-line {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent 0%, rgba(84, 197, 248, 0.5) 50%, transparent 100%);
+    z-index: 2;
   }
+  .accent-line.top { top: 0; }
+  .accent-line.bottom { bottom: 0; }
+
+  /* corner ornaments */
+  .corner {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border-color: rgba(84, 197, 248, 0.25);
+    border-style: solid;
+    border-width: 0;
+    z-index: 2;
+  }
+  .corner.tl { top: 16px; left: 16px; border-top-width: 1px; border-left-width: 1px; }
+  .corner.tr { top: 16px; right: 16px; border-top-width: 1px; border-right-width: 1px; }
+  .corner.bl { bottom: 16px; left: 16px; border-bottom-width: 1px; border-left-width: 1px; }
+  .corner.br { bottom: 16px; right: 16px; border-bottom-width: 1px; border-right-width: 1px; }
 </style>
 </head>
 <body>
-  <div class="glow-1"></div>
-  <div class="glow-2"></div>
-  <div class="container">
-    <div class="left">
-      <div class="name">Ishaq Hassan</div>
-      <div class="title">
-        <span>Flutter Framework Contributor</span><br>
-        Engineering Manager &middot; Open Source Author
-      </div>
-      <div class="badges">
-        <div class="badge badge-blue">13+ YEARS</div>
-        <div class="badge badge-green">3 PRs MERGED</div>
-        <div class="badge badge-purple">FLUTTER DOCS LISTED</div>
-        <div class="badge badge-orange">9,800+ CONTRIBUTIONS</div>
-      </div>
+
+  <div class="banner">
+
+    <!-- corner ornaments -->
+    <span class="corner tl"></span>
+    <span class="corner tr"></span>
+    <span class="corner bl"></span>
+    <span class="corner br"></span>
+
+    <!-- real Flutter logo silhouette (darkened) -->
+    <svg class="f-shape" viewBox="0 0 166 202" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="triangleGradient">
+          <stop offset="20%" stop-color="#000000" stop-opacity=".55" />
+          <stop offset="85%" stop-color="#616161" stop-opacity=".01" />
+        </linearGradient>
+        <linearGradient id="rectangleGradient" x1="0%" x2="0%" y1="0%" y2="100%">
+          <stop offset="20%" stop-color="#000000" stop-opacity=".15" />
+          <stop offset="85%" stop-color="#616161" stop-opacity=".01" />
+        </linearGradient>
+      </defs>
+      <path fill="#0e2440" fill-opacity="0.95" d="M37.7 128.9 9.8 101 100.4 10.4 156.2 10.4" />
+      <path fill="#0e2440" fill-opacity="0.95" d="M156.2 94 100.4 94 79.5 114.9 107.4 142.8" />
+      <path fill="#071529" d="M79.5 170.7 100.4 191.6 156.2 191.6 156.2 191.6 107.4 142.8" />
+      <g transform="matrix(0.7071, -0.7071, 0.7071, 0.7071, -77.667, 98.057)">
+        <rect width="39.4" height="39.4" x="59.8" y="123.1" fill="#0e2440" />
+        <rect width="39.4" height="5.5" x="59.8" y="162.5" fill="url(#rectangleGradient)" />
+      </g>
+      <path d="M79.5 170.7 120.9 156.4 107.4 142.8" fill="url(#triangleGradient)" />
+    </svg>
+
+    <!-- left code snippet -->
+    <div class="code">
+      <div><span class="kw">class</span> <span class="cls">FlutterContributor</span> <span class="punct">{</span></div>
+      <div>&nbsp;&nbsp;<span class="kw">final</span> merged <span class="punct">=</span> <span class="num">7</span><span class="punct">;</span></div>
+      <div>&nbsp;&nbsp;<span class="kw">final</span> open <span class="punct">=</span> <span class="num">5</span><span class="punct">;</span></div>
+      <div>&nbsp;&nbsp;<span class="kw">final</span> events <span class="punct">=</span> <span class="num">11</span><span class="punct">;</span></div>
+      <div>&nbsp;</div>
+      <div>&nbsp;&nbsp;<span class="ann">@override</span></div>
+      <div>&nbsp;&nbsp;<span class="cls">Widget</span> <span class="fn">build</span><span class="punct">(</span>ctx<span class="punct">)</span> <span class="punct">{</span></div>
+      <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kw">return</span> <span class="fn">Impact</span><span class="punct">(</span></div>
+      <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="prop">community</span><span class="punct">:</span> <span class="bool">true</span><span class="punct">,</span></div>
+      <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="punct">);</span></div>
+      <div>&nbsp;&nbsp;<span class="punct">}</span></div>
+      <div><span class="punct">}</span></div>
     </div>
-    <div class="right">
-      <div class="stat-card">
-        <div class="stat-number blue">3</div>
-        <div class="stat-label"><strong>PRs Merged</strong>flutter/flutter</div>
+
+    <!-- center headline -->
+    <div class="center">
+      <div class="eyebrow">
+        <span>Engineering Manager</span>
+        <span class="sep"></span>
+        <span>Open Source Author</span>
       </div>
-      <div class="stat-card">
-        <div class="stat-number green">63</div>
-        <div class="stat-label"><strong>Stars</strong>document_scanner_flutter</div>
+
+      <div class="headline">
+        <div class="headline-row">
+          <div class="title"><span class="blue">Flutter</span>&nbsp;Framework</div>
+        </div>
+        <div class="headline-row">
+          <div class="title">Contributor</div>
+          <div class="badge">
+            <div class="num">7</div>
+            <div class="lbl">PRS MERGED</div>
+          </div>
+        </div>
       </div>
-      <div class="stat-card">
-        <div class="stat-number purple">135</div>
-        <div class="stat-label"><strong>Forks</strong>across open source plugins</div>
-      </div>
+
+      <div class="subtitle">Building Flutter From The Inside Out</div>
     </div>
+
+    <!-- right stats — premium glass cards -->
+    <div class="stats">
+
+      <div class="stat">
+        <div class="stat-corner">
+          <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+        </div>
+        <div class="stat-icon">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/>
+            <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+            <path d="M12 19v3"/>
+            <path d="M8 22h8"/>
+          </svg>
+        </div>
+        <div class="stat-body">
+          <div class="stat-num-wrap">
+            <span class="stat-num">11</span><span class="stat-plus">+</span>
+          </div>
+          <div class="stat-label">Tech Talks<br />&amp; Events</div>
+        </div>
+      </div>
+
+      <div class="stat">
+        <div class="stat-corner">
+          <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+        </div>
+        <div class="stat-icon">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/>
+            <path d="M3.27 6.96 12 12.01l8.73-5.05"/>
+            <path d="M12 22.08V12"/>
+          </svg>
+        </div>
+        <div class="stat-body">
+          <div class="stat-num-wrap">
+            <span class="stat-num">6</span>
+          </div>
+          <div class="stat-label">Open Source<br />Packages</div>
+        </div>
+      </div>
+
+      <div class="stat">
+        <div class="stat-corner">
+          <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+        </div>
+        <div class="stat-icon">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="9"/>
+            <path d="M12 7v5l3 2"/>
+          </svg>
+        </div>
+        <div class="stat-body">
+          <div class="stat-num-wrap">
+            <span class="stat-num">13</span><span class="stat-plus">+</span>
+          </div>
+          <div class="stat-label">Years<br />Experience</div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- site url -->
+    <div class="site">ishaqhassan.dev</div>
+
+    <!-- accents -->
+    <div class="accent-line top"></div>
+    <div class="accent-line bottom"></div>
+
   </div>
+
 </body>
 </html>
