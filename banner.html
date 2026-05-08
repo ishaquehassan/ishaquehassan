@@ -23,13 +23,11 @@
   .banner {
     position: relative;
     width: 1584px;
-    height: 440px;
+    height: 396px;
     background:
       radial-gradient(ellipse 70% 100% at 50% 120%, rgba(84, 197, 248, 0.22) 0%, rgba(84, 197, 248, 0.04) 40%, transparent 70%),
       radial-gradient(ellipse 80% 60% at 50% 50%, #0a1628 0%, #060b18 45%, #03060d 100%);
     overflow: hidden;
-    border-radius: 4px;
-    box-shadow: 0 24px 80px rgba(0, 0, 0, 0.7);
   }
 
   /* subtle dot grid */
@@ -426,9 +424,10 @@
     position: absolute;
     left: 0;
     right: 0;
-    height: 1px;
-    background: linear-gradient(90deg, transparent 0%, rgba(84, 197, 248, 0.5) 50%, transparent 100%);
-    z-index: 2;
+    height: 3px;
+    background: linear-gradient(90deg, transparent 0%, rgba(84, 197, 248, 0.95) 50%, transparent 100%);
+    z-index: 8;
+    box-shadow: 0 0 16px rgba(84, 197, 248, 0.6);
   }
   .accent-line.top { top: 0; }
   .accent-line.bottom { bottom: 0; }
@@ -436,28 +435,23 @@
   /* corner ornaments */
   .corner {
     position: absolute;
-    width: 24px;
-    height: 24px;
-    border-color: rgba(84, 197, 248, 0.25);
+    width: 36px;
+    height: 36px;
+    border-color: rgba(84, 197, 248, 0.75);
     border-style: solid;
     border-width: 0;
-    z-index: 2;
+    z-index: 6;
+    box-shadow: 0 0 8px rgba(84, 197, 248, 0.3);
   }
-  .corner.tl { top: 16px; left: 16px; border-top-width: 1px; border-left-width: 1px; }
-  .corner.tr { top: 16px; right: 16px; border-top-width: 1px; border-right-width: 1px; }
-  .corner.bl { bottom: 16px; left: 16px; border-bottom-width: 1px; border-left-width: 1px; }
-  .corner.br { bottom: 16px; right: 16px; border-bottom-width: 1px; border-right-width: 1px; }
+  .corner.tl { top: 16px; left: 16px; border-top-width: 2px; border-left-width: 2px; }
+  .corner.tr { top: 16px; right: 16px; border-top-width: 2px; border-right-width: 2px; }
+  .corner.bl { bottom: 16px; left: 16px; border-bottom-width: 2px; border-left-width: 2px; }
+  .corner.br { bottom: 16px; right: 16px; border-bottom-width: 2px; border-right-width: 2px; }
 </style>
 </head>
 <body>
 
   <div class="banner">
-
-    <!-- corner ornaments -->
-    <span class="corner tl"></span>
-    <span class="corner tr"></span>
-    <span class="corner bl"></span>
-    <span class="corner br"></span>
 
     <!-- real Flutter logo silhouette (darkened) -->
     <svg class="f-shape" viewBox="0 0 166 202" fill="none" xmlns="http://www.w3.org/2000/svg">
