@@ -23,28 +23,30 @@
 
 **Flutter Framework Contributor from Pakistan.** 13+ years in software engineering, based in Karachi. Currently **Engineering Manager** at [DigitalHire](https://digitalhire.com), building the world's first integrated talent engine.
 
-I contribute directly to the **Flutter framework** itself. **6 Pull Requests merged into the [official Flutter repository](https://github.com/flutter/flutter)** (Google-maintained) with 4 more in active review. Working on widget rendering, animation APIs, documentation, and cross-fade transitions inside the Flutter framework.
+I contribute directly to the **Flutter ecosystem**. **7 Pull Requests merged into the official Flutter org repos** (6 in [flutter](https://github.com/flutter/flutter), 1 in [devtools](https://github.com/flutter/devtools)) with 5 more in active review across [flutter](https://github.com/flutter/flutter) and [packages](https://github.com/flutter/packages). Working on widget rendering, animation APIs, documentation, cross-fade transitions, and DevTools UI internals.
 
 Instructor of the **Flutter Urdu course** officially listed on [docs.flutter.dev/resources/courses](https://docs.flutter.dev/resources/courses). GDG Kolachi Mentor. 50+ production apps shipped.
 
 ---
 
-### 🔥 Flutter Framework PRs (6 Merged + 4 Open)
+### 🔥 Flutter Ecosystem PRs (7 Merged + 5 Open)
 
-Contributions to the [official Flutter repository](https://github.com/flutter/flutter), the framework that millions of developers use:
+Contributions across the [official Flutter org repos](https://github.com/flutter), the framework and tooling that millions of developers use:
 
-| PR | Title | Status |
-|:---|:------|:------:|
-| [#184572](https://github.com/flutter/flutter/pull/184572) | Fix LicenseRegistry docs to reference NOTICES | ✅ Merged |
-| [#184569](https://github.com/flutter/flutter/pull/184569) | Add disposal guidance to CurvedAnimation and CurveTween docs | ✅ Merged |
-| [#184545](https://github.com/flutter/flutter/pull/184545) | Add `clipBehavior` parameter to AnimatedCrossFade | ✅ Merged |
-| [#183109](https://github.com/flutter/flutter/pull/183109) | Add `scrollPadding` property to DropdownMenu | ✅ Merged |
-| [#183097](https://github.com/flutter/flutter/pull/183097) | Fix RouteAware.didPushNext documentation | ✅ Merged |
-| [#183081](https://github.com/flutter/flutter/pull/183081) | Use double quotes in settings.gradle.kts template | ✅ Merged |
-| [#186142](https://github.com/flutter/flutter/pull/186142) | Update iOS section of AppLocalizations template to current Xcode workflow | 🔄 Open |
-| [#185938](https://github.com/flutter/flutter/pull/185938) | Add blendMode parameter to RawImage and RenderImage | 🔄 Open |
-| [#183079](https://github.com/flutter/flutter/pull/183079) | Guard auto-scroll against Offset.infinite in ScrollableSelectionContainer | 🔄 Open |
-| [#183062](https://github.com/flutter/flutter/pull/183062) | Reset AppBar _scrolledUnder flag when scroll context changes | 🔄 Open |
+| PR | Repo | Title | Status |
+|:---|:-----|:------|:------:|
+| [#184572](https://github.com/flutter/flutter/pull/184572) | flutter | Fix LicenseRegistry docs to reference NOTICES | ✅ Merged |
+| [#184569](https://github.com/flutter/flutter/pull/184569) | flutter | Add disposal guidance to CurvedAnimation and CurveTween docs | ✅ Merged |
+| [#184545](https://github.com/flutter/flutter/pull/184545) | flutter | Add `clipBehavior` parameter to AnimatedCrossFade | ✅ Merged |
+| [#183109](https://github.com/flutter/flutter/pull/183109) | flutter | Add `scrollPadding` property to DropdownMenu | ✅ Merged |
+| [#183097](https://github.com/flutter/flutter/pull/183097) | flutter | Fix RouteAware.didPushNext documentation | ✅ Merged |
+| [#183081](https://github.com/flutter/flutter/pull/183081) | flutter | Use double quotes in settings.gradle.kts template | ✅ Merged |
+| [#9822](https://github.com/flutter/devtools/pull/9822) | devtools | Fix SplitPane RangeError when child count changes between rebuilds | ✅ Merged |
+| [#186142](https://github.com/flutter/flutter/pull/186142) | flutter | Update iOS section of AppLocalizations template to current Xcode workflow | 🔄 Open |
+| [#185938](https://github.com/flutter/flutter/pull/185938) | flutter | Add blendMode parameter to RawImage and RenderImage | 🔄 Open |
+| [#183079](https://github.com/flutter/flutter/pull/183079) | flutter | Guard auto-scroll against Offset.infinite in ScrollableSelectionContainer | 🔄 Open |
+| [#183062](https://github.com/flutter/flutter/pull/183062) | flutter | Reset AppBar _scrolledUnder flag when scroll context changes | 🔄 Open |
+| [#11648](https://github.com/flutter/packages/pull/11648) | packages | [in_app_purchase] Fix broken dartdoc references in completePurchase | 🔄 Open |
 
 Areas: widget rendering, animation APIs, parameter forwarding, `AnimatedCrossFade` internals, documentation accuracy.
 
@@ -118,7 +120,7 @@ Leading engineering for an AI-powered recruitment platform built with Flutter (W
 <td align="center" width="25%">
 <img width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" />
 <br><strong>Flutter Framework</strong><br>
-<sub>6 PRs merged into<br>the official repo</sub>
+<sub>7 PRs merged into<br>the Flutter org repos</sub>
 </td>
 <td align="center" width="25%">
 <img width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" />
