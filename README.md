@@ -46,7 +46,6 @@ Contributions across the [official Flutter org repos](https://github.com/flutter
 | [#185938](https://github.com/flutter/flutter/pull/185938) | flutter | Add blendMode parameter to RawImage and RenderImage | 🔄 Open |
 | [#183079](https://github.com/flutter/flutter/pull/183079) | flutter | Guard auto-scroll against Offset.infinite in ScrollableSelectionContainer | 🔄 Open |
 | [#183062](https://github.com/flutter/flutter/pull/183062) | flutter | Reset AppBar _scrolledUnder flag when scroll context changes | 🔄 Open |
-| [#11648](https://github.com/flutter/packages/pull/11648) | packages | [in_app_purchase] Fix broken dartdoc references in completePurchase | 🔄 Open |
 
 Areas: widget rendering, animation APIs, parameter forwarding, `AnimatedCrossFade` internals, documentation accuracy.
 
