@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="banner-v3-current.png" width="100%" />
+  <img src="banner-v4-current.png" width="100%" />
 </div>
 
 <div align="center">
@@ -23,18 +23,19 @@
 
 **Flutter Framework Contributor from Pakistan.** 13+ years in software engineering, based in Karachi. Currently **Engineering Manager** at [DigitalHire](https://digitalhire.com), building the world's first integrated talent engine.
 
-I contribute directly to the **Flutter ecosystem**. **7 Pull Requests merged into the official Flutter org repos** (6 in [flutter](https://github.com/flutter/flutter), 1 in [devtools](https://github.com/flutter/devtools)) with 5 more in active review across [flutter](https://github.com/flutter/flutter) and [packages](https://github.com/flutter/packages). Working on widget rendering, animation APIs, documentation, cross-fade transitions, and DevTools UI internals.
+I contribute directly to the **Flutter ecosystem**. **8 Pull Requests merged into the official Flutter org repos** (7 in [flutter](https://github.com/flutter/flutter), 1 in [devtools](https://github.com/flutter/devtools)) with 5 more in active review across [flutter](https://github.com/flutter/flutter) and [devtools](https://github.com/flutter/devtools). Working on widget rendering, animation APIs, documentation, cross-fade transitions, test framework docs, and DevTools UI internals.
 
 Instructor of the **Flutter Urdu course** officially listed on [docs.flutter.dev/resources/courses](https://docs.flutter.dev/resources/courses). GDG Kolachi Mentor. 50+ production apps shipped.
 
 ---
 
-### 🔥 Flutter Ecosystem PRs (7 Merged + 5 Open)
+### 🔥 Flutter Ecosystem PRs (8 Merged + 5 Open)
 
 Contributions across the [official Flutter org repos](https://github.com/flutter), the framework and tooling that millions of developers use:
 
 | PR | Repo | Title | Status |
 |:---|:-----|:------|:------:|
+| [#186943](https://github.com/flutter/flutter/pull/186943) | flutter | Document moveStep direction on WidgetController.dragUntilVisible | ✅ Merged |
 | [#184572](https://github.com/flutter/flutter/pull/184572) | flutter | Fix LicenseRegistry docs to reference NOTICES | ✅ Merged |
 | [#184569](https://github.com/flutter/flutter/pull/184569) | flutter | Add disposal guidance to CurvedAnimation and CurveTween docs | ✅ Merged |
 | [#184545](https://github.com/flutter/flutter/pull/184545) | flutter | Add `clipBehavior` parameter to AnimatedCrossFade | ✅ Merged |
@@ -42,12 +43,13 @@ Contributions across the [official Flutter org repos](https://github.com/flutter
 | [#183097](https://github.com/flutter/flutter/pull/183097) | flutter | Fix RouteAware.didPushNext documentation | ✅ Merged |
 | [#183081](https://github.com/flutter/flutter/pull/183081) | flutter | Use double quotes in settings.gradle.kts template | ✅ Merged |
 | [#9822](https://github.com/flutter/devtools/pull/9822) | devtools | Fix SplitPane RangeError when child count changes between rebuilds | ✅ Merged |
+| [#187845](https://github.com/flutter/flutter/pull/187845) | flutter | Parse wireless ADB serials that contain a space (mDNS conflict suffix) | 🔄 Open |
 | [#186142](https://github.com/flutter/flutter/pull/186142) | flutter | Update iOS section of AppLocalizations template to current Xcode workflow | 🔄 Open |
 | [#185938](https://github.com/flutter/flutter/pull/185938) | flutter | Add blendMode parameter to RawImage and RenderImage | 🔄 Open |
-| [#183079](https://github.com/flutter/flutter/pull/183079) | flutter | Guard auto-scroll against Offset.infinite in ScrollableSelectionContainer | 🔄 Open |
 | [#183062](https://github.com/flutter/flutter/pull/183062) | flutter | Reset AppBar _scrolledUnder flag when scroll context changes | 🔄 Open |
+| [#9855](https://github.com/flutter/devtools/pull/9855) | devtools | Keep network search field enabled after clearing calls | 🔄 Open |
 
-Areas: widget rendering, animation APIs, parameter forwarding, `AnimatedCrossFade` internals, documentation accuracy.
+Areas: widget rendering, animation APIs, parameter forwarding, `AnimatedCrossFade` internals, test framework docs, DevTools UI, documentation accuracy.
 
 ---
 
@@ -119,7 +121,7 @@ Leading engineering for an AI-powered recruitment platform built with Flutter (W
 <td align="center" width="25%">
 <img width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" />
 <br><strong>Flutter Framework</strong><br>
-<sub>7 PRs merged into<br>the Flutter org repos</sub>
+<sub>8 PRs merged into<br>the Flutter org repos</sub>
 </td>
 <td align="center" width="25%">
 <img width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" />
