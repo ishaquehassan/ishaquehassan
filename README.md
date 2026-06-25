@@ -23,13 +23,13 @@
 
 **Flutter Framework Contributor from Pakistan.** 13+ years in software engineering, based in Karachi. Currently **Engineering Manager** at [DigitalHire](https://digitalhire.com), building the world's first integrated talent engine.
 
-I contribute directly to the **Flutter ecosystem**. **8 Pull Requests merged into the official Flutter org repos** (7 in [flutter](https://github.com/flutter/flutter), 1 in [devtools](https://github.com/flutter/devtools)) with 5 more in active review across [flutter](https://github.com/flutter/flutter) and [devtools](https://github.com/flutter/devtools). Working on widget rendering, animation APIs, documentation, cross-fade transitions, test framework docs, and DevTools UI internals.
+I contribute directly to the **Flutter ecosystem**. **9 Pull Requests merged into the official Flutter org repos** (7 in [flutter](https://github.com/flutter/flutter), 2 in [devtools](https://github.com/flutter/devtools)) with 3 more in active review on [flutter](https://github.com/flutter/flutter). Working on widget rendering, animation APIs, documentation, cross-fade transitions, test framework docs, and DevTools UI internals.
 
 Instructor of the **Flutter Urdu course** officially listed on [docs.flutter.dev/resources/courses](https://docs.flutter.dev/resources/courses). GDG Kolachi Mentor. 50+ production apps shipped.
 
 ---
 
-### 🔥 Flutter Ecosystem PRs (8 Merged + 5 Open)
+### 🔥 Flutter Ecosystem PRs (9 Merged + 3 Open)
 
 Contributions across the [official Flutter org repos](https://github.com/flutter), the framework and tooling that millions of developers use:
 
@@ -42,12 +42,11 @@ Contributions across the [official Flutter org repos](https://github.com/flutter
 | [#183109](https://github.com/flutter/flutter/pull/183109) | flutter | Add `scrollPadding` property to DropdownMenu | ✅ Merged |
 | [#183097](https://github.com/flutter/flutter/pull/183097) | flutter | Fix RouteAware.didPushNext documentation | ✅ Merged |
 | [#183081](https://github.com/flutter/flutter/pull/183081) | flutter | Use double quotes in settings.gradle.kts template | ✅ Merged |
+| [#9855](https://github.com/flutter/devtools/pull/9855) | devtools | Keep network search field enabled after clearing calls | ✅ Merged |
 | [#9822](https://github.com/flutter/devtools/pull/9822) | devtools | Fix SplitPane RangeError when child count changes between rebuilds | ✅ Merged |
-| [#187845](https://github.com/flutter/flutter/pull/187845) | flutter | Parse wireless ADB serials that contain a space (mDNS conflict suffix) | 🔄 Open |
 | [#186142](https://github.com/flutter/flutter/pull/186142) | flutter | Update iOS section of AppLocalizations template to current Xcode workflow | 🔄 Open |
 | [#185938](https://github.com/flutter/flutter/pull/185938) | flutter | Add blendMode parameter to RawImage and RenderImage | 🔄 Open |
 | [#183062](https://github.com/flutter/flutter/pull/183062) | flutter | Reset AppBar _scrolledUnder flag when scroll context changes | 🔄 Open |
-| [#9855](https://github.com/flutter/devtools/pull/9855) | devtools | Keep network search field enabled after clearing calls | 🔄 Open |
 
 Areas: widget rendering, animation APIs, parameter forwarding, `AnimatedCrossFade` internals, test framework docs, DevTools UI, documentation accuracy.
 
@@ -121,7 +120,7 @@ Leading engineering for an AI-powered recruitment platform built with Flutter (W
 <td align="center" width="25%">
 <img width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" />
 <br><strong>Flutter Framework</strong><br>
-<sub>8 PRs merged into<br>the Flutter org repos</sub>
+<sub>9 PRs merged into<br>the Flutter org repos</sub>
 </td>
 <td align="center" width="25%">
 <img width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" />
