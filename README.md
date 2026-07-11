@@ -90,9 +90,9 @@ Areas: widget rendering, animation APIs, parameter forwarding, `AnimatedCrossFad
 | [React Native & Redux Meetup (2017)](https://www.facebook.com/groups/karachiarchived/permalink/1014647058676334) | [The Nest I/O](https://thenestio.com/) | Co-Presenter (with M. Kamran Qadri) |
 
 <p align="center">
-  <img src="assets/nest-io-react-native-2017.jpg" alt="Ishaq Hassan presenting the React Native and Redux meetup at The Nest I/O, Karachi (2017)" width="720">
+  <img src="assets/nest-io-talk.jpg" alt="Ishaq Hassan speaking to a packed room at The Nest I/O, Karachi" width="720">
   <br>
-  <sub>On stage at The Nest I/O, Karachi: React Native & Redux meetup (2017)</sub>
+  <sub>Speaking to a full house at The Nest I/O, Karachi</sub>
 </p>
 
 ---
