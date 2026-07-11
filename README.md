@@ -75,6 +75,7 @@ Areas: widget rendering, animation APIs, parameter forwarding, `AnimatedCrossFad
 
 | Event | Venue | Role |
 |:------|:------|:-----|
+| [TechBridge 2026](https://web.facebook.com/photo?fbid=1376875151137419&set=a.550564113768531) Industry Guest Speaker Seminar + IAB @ Iqra University Gulshan Campus (May 21, 2026) | [Iqra University](https://iqra.edu.pk/) | Industry Guest Speaker |
 | [DevFest Karachi 2021](https://x.com/GDGKolachi/status/1466038791257440267) "Scaling Products with Flutter" | [GDG Kolachi](https://gdg.community.dev/gdg-kolachi/) | Panel Speaker (with Waleed Arshad & Sakina Abbas) |
 | [Google I/O Extended Karachi 2023](https://www.facebook.com/photo/?fbid=720743350091964&set=a.478629590970009) Workshop: "Flutter's Future with Stacked: Mastering MVVM" @ IBA City Campus | [GDG Kolachi](https://gdg.community.dev/gdg-kolachi/) | Workshop Speaker |
 | [Google I/O Extended Karachi 2022](https://www.facebook.com/photo/?fbid=2633195370147637&set=a.478629590970009) "Native Code Integration With Flutter" @ Iqra University | [GDG Kolachi](https://gdg.community.dev/gdg-kolachi/) | Speaker |
