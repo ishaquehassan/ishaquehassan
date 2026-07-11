@@ -57,7 +57,7 @@ Areas: widget rendering, animation APIs, parameter forwarding, `AnimatedCrossFad
 <table>
 <tr>
 <td align="center" width="33%">
-<h4>10+</h4>
+<h4>15+</h4>
 <sub>Speaking Events</sub>
 </td>
 <td align="center" width="33%">
@@ -76,13 +76,24 @@ Areas: widget rendering, animation APIs, parameter forwarding, `AnimatedCrossFad
 | Event | Venue | Role |
 |:------|:------|:-----|
 | [DevFest Karachi 2021](https://x.com/GDGKolachi/status/1466038791257440267) "Scaling Products with Flutter" | [GDG Kolachi](https://gdg.community.dev/gdg-kolachi/) | Panel Speaker (with Waleed Arshad & Sakina Abbas) |
-| [Google IO Extended Karachi](https://www.facebook.com/GDGKolachi/posts/720743396758626/) | [GDG Kolachi](https://gdg.community.dev/gdg-kolachi/) | Speaker |
-| [Flutter Bootcamp](https://gdg.community.dev/events/details/google-gdg-kolachi-presents-flutter-bootcamp/) | [GDG Kolachi](https://gdg.community.dev/gdg-kolachi/) | Instructor |
+| [Google I/O Extended Karachi 2023](https://www.facebook.com/photo/?fbid=720743350091964&set=a.478629590970009) Workshop: "Flutter's Future with Stacked: Mastering MVVM" @ IBA City Campus | [GDG Kolachi](https://gdg.community.dev/gdg-kolachi/) | Workshop Speaker |
+| [Google I/O Extended Karachi 2022](https://www.facebook.com/photo/?fbid=2633195370147637&set=a.478629590970009) "Native Code Integration With Flutter" @ Iqra University | [GDG Kolachi](https://gdg.community.dev/gdg-kolachi/) | Speaker |
+| [Google I/O Extended Karachi 2021](https://www.facebook.com/photo/?fbid=2320727104727800&set=gm.409820913712109&idorvanity=397300131630854) LIVE Coding Session: built "Fire Classifieds" Flutter app on stage @ NIC | [GDG Kolachi](https://gdg.community.dev/gdg-kolachi/) | Live Coder (with Huzaifa Ahmed & Waleed Arshad) |
+| [Google I/O Extended Karachi 2019](https://www.facebook.com/GDGKolachi/posts/pfbid025gy6zArzUfWiGdZLNAkYc1x4c5tXayPGpm99pQW615P4cK3q6TGzER2QS9baopETl) Android Data Binding codelab @ Habib University | [GDG Kolachi](https://gdg.community.dev/gdg-kolachi/) | Codelab Speaker |
+| [Flutter Bootcamp (Aug 21-22, 2021)](https://www.facebook.com/photo/?fbid=2344181145715729&set=gm.524808955453217&idorvanity=524788112121968) online, with Women Techmakers Kolachi | [GDG Kolachi](https://gdg.community.dev/gdg-kolachi/) | Instructor |
+| [Flutter Study Jam 2020](https://www.facebook.com/photo/?fbid=1817097918424057&set=a.478629590970009) "Build your first Flutter Application" | [GDG Kolachi](https://gdg.community.dev/gdg-kolachi/) | Official Trainer |
 | [Flutter Seminar](https://www.linkedin.com/posts/itrathussainzaidi_flutter-iqrauniversity-seminar-activity-7192627199412232192-8t2X) | [Iqra University](https://iqra.edu.pk/) | Speaker |
 | [Bridging the Gap: Industry Academia](https://www.facebook.com/iqraugc/photos/979777174180554/) | [Iqra University](https://iqra.edu.pk/) | Speaker |
 | [Guest Speaker Seminar 2025](https://www.instagram.com/p/DNcZJQyhmTW/) | [Iqra University](https://iqra.edu.pk/) | Guest Speaker |
 | [BLAZE 2022](https://azeemabbas.com/blog/2022-08-16-building-communities-with-gdg-kolachi/) Tech & Non-Tech Workshops | [GDG Kolachi](https://gdg.community.dev/gdg-kolachi/) | Workshop Conductor |
 | [DevNCode Meetup IV: AI](https://medium.com/devncode/devncode-meetup-iv-artificial-intelligence-df8c602de7d5) | [The Nest I/O](https://thenestio.com/) | Speaker |
+| [React Native & Redux Meetup (2017)](https://www.facebook.com/groups/karachiarchived/permalink/1014647058676334) | [The Nest I/O](https://thenestio.com/) | Co-Presenter (with M. Kamran Qadri) |
+
+<p align="center">
+  <img src="assets/nest-io-react-native-2017.jpg" alt="Ishaq Hassan presenting the React Native and Redux meetup at The Nest I/O, Karachi (2017)" width="720">
+  <br>
+  <sub>On stage at The Nest I/O, Karachi: React Native & Redux meetup (2017)</sub>
+</p>
 
 ---
 
