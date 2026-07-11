@@ -85,6 +85,7 @@ Areas: widget rendering, animation APIs, parameter forwarding, `AnimatedCrossFad
 | [Flutter Seminar](https://www.linkedin.com/posts/itrathussainzaidi_flutter-iqrauniversity-seminar-activity-7192627199412232192-8t2X) | [Iqra University](https://iqra.edu.pk/) | Speaker |
 | [Bridging the Gap: Industry Academia](https://www.facebook.com/iqraugc/photos/979777174180554/) | [Iqra University](https://iqra.edu.pk/) | Speaker |
 | [Guest Speaker Seminar 2025](https://www.instagram.com/p/DNcZJQyhmTW/) | [Iqra University](https://iqra.edu.pk/) | Guest Speaker |
+| [TechBridge 2026: Connecting Students with Industry Leaders](https://www.facebook.com/photo?fbid=1376875151137419&set=a.550564113768531) | [Iqra University Gulshan](https://iqra.edu.pk/) | Guest Speaker (Industrial Advisory Board) |
 | [BLAZE 2022](https://azeemabbas.com/blog/2022-08-16-building-communities-with-gdg-kolachi/) Tech & Non-Tech Workshops | [GDG Kolachi](https://gdg.community.dev/gdg-kolachi/) | Workshop Conductor |
 | [DevNCode Meetup IV: AI](https://medium.com/devncode/devncode-meetup-iv-artificial-intelligence-df8c602de7d5) | [The Nest I/O](https://thenestio.com/) | Speaker |
 | [React Native & Redux Meetup (2017)](https://www.facebook.com/groups/karachiarchived/permalink/1014647058676334) | [The Nest I/O](https://thenestio.com/) | Co-Presenter (with M. Kamran Qadri) |
@@ -227,7 +228,7 @@ Claude Code on your phone. Remote terminal for Claude sessions over WebSocket PT
 | [Flutter's Three-Tree Architecture Explained: Widgets, Elements, RenderObjects](https://ishaqhassan.dev/blog/flutter-three-tree-architecture-explained.html) | 12 min |
 | [Flutter State Management in 2026: A Decision Guide for Production Apps](https://ishaqhassan.dev/blog/flutter-state-management-2026-guide.html) | 14 min |
 | [Building Production Flutter Plugins: A 156-Likes pub.dev Case Study](https://ishaqhassan.dev/blog/building-production-flutter-plugins-case-study.html) | 11 min |
-| [How a Pakistani Engineer Got 6 PRs Merged Into Flutter's Official Framework](https://ishaqhassan.dev/blog/how-i-got-6-prs-merged-into-flutter.html) | 10 min |
+| [How a Pakistani Engineer Got 9 PRs Merged Into Flutter's Official Framework](https://ishaqhassan.dev/blog/how-i-got-6-prs-merged-into-flutter.html) | 10 min |
 <!-- BLOG-POST-LIST:END -->
 
 ➡️ [More articles on ishaqhassan.dev/blog](https://ishaqhassan.dev/blog/)
