@@ -23,19 +23,20 @@
 
 **Flutter Framework Contributor from Pakistan.** 13+ years in software engineering, based in Karachi. Currently **Engineering Manager** at [DigitalHire](https://digitalhire.com), building the world's first integrated talent engine.
 
-I contribute directly to the **Flutter ecosystem**. **9 Pull Requests merged into the official Flutter org repos** (7 in [flutter](https://github.com/flutter/flutter), 2 in [devtools](https://github.com/flutter/devtools)) with 3 more in active review on [flutter](https://github.com/flutter/flutter). Working on widget rendering, animation APIs, documentation, cross-fade transitions, test framework docs, and DevTools UI internals.
+I contribute directly to the **Flutter ecosystem**. **10 Pull Requests merged into the official Flutter org repos** (8 in [flutter](https://github.com/flutter/flutter), 2 in [devtools](https://github.com/flutter/devtools)) with 2 more in active review on [flutter](https://github.com/flutter/flutter). Working on widget rendering, animation APIs, documentation, cross-fade transitions, test framework docs, and DevTools UI internals.
 
 Instructor of the **Flutter Urdu course** officially listed on [docs.flutter.dev/resources/courses](https://docs.flutter.dev/resources/courses). GDG Kolachi Mentor. 50+ production apps shipped.
 
 ---
 
-### 🔥 Flutter Ecosystem PRs (9 Merged + 3 Open)
+### 🔥 Flutter Ecosystem PRs (10 Merged + 2 Open)
 
 Contributions across the [official Flutter org repos](https://github.com/flutter), the framework and tooling that millions of developers use:
 
 | PR | Repo | Title | Status |
 |:---|:-----|:------|:------:|
 | [#186943](https://github.com/flutter/flutter/pull/186943) | flutter | Document moveStep direction on WidgetController.dragUntilVisible | ✅ Merged |
+| [#185938](https://github.com/flutter/flutter/pull/185938) | flutter | Add blendMode parameter to RawImage and RenderImage | ✅ Merged |
 | [#184572](https://github.com/flutter/flutter/pull/184572) | flutter | Fix LicenseRegistry docs to reference NOTICES | ✅ Merged |
 | [#184569](https://github.com/flutter/flutter/pull/184569) | flutter | Add disposal guidance to CurvedAnimation and CurveTween docs | ✅ Merged |
 | [#184545](https://github.com/flutter/flutter/pull/184545) | flutter | Add `clipBehavior` parameter to AnimatedCrossFade | ✅ Merged |
@@ -45,7 +46,6 @@ Contributions across the [official Flutter org repos](https://github.com/flutter
 | [#9855](https://github.com/flutter/devtools/pull/9855) | devtools | Keep network search field enabled after clearing calls | ✅ Merged |
 | [#9822](https://github.com/flutter/devtools/pull/9822) | devtools | Fix SplitPane RangeError when child count changes between rebuilds | ✅ Merged |
 | [#186142](https://github.com/flutter/flutter/pull/186142) | flutter | Update iOS section of AppLocalizations template to current Xcode workflow | 🔄 Open |
-| [#185938](https://github.com/flutter/flutter/pull/185938) | flutter | Add blendMode parameter to RawImage and RenderImage | 🔄 Open |
 | [#183062](https://github.com/flutter/flutter/pull/183062) | flutter | Reset AppBar _scrolledUnder flag when scroll context changes | 🔄 Open |
 
 Areas: widget rendering, animation APIs, parameter forwarding, `AnimatedCrossFade` internals, test framework docs, DevTools UI, documentation accuracy.
@@ -133,7 +133,7 @@ Leading engineering for an AI-powered recruitment platform built with Flutter (W
 <td align="center" width="25%">
 <img width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" />
 <br><strong>Flutter Framework</strong><br>
-<sub>9 PRs merged into<br>the Flutter org repos</sub>
+<sub>10 PRs merged into<br>the Flutter org repos</sub>
 </td>
 <td align="center" width="25%">
 <img width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" />
@@ -229,7 +229,7 @@ Claude Code on your phone. Remote terminal for Claude sessions over WebSocket PT
 | [Flutter's Three-Tree Architecture Explained: Widgets, Elements, RenderObjects](https://ishaqhassan.dev/blog/flutter-three-tree-architecture-explained.html) | 12 min |
 | [Flutter State Management in 2026: A Decision Guide for Production Apps](https://ishaqhassan.dev/blog/flutter-state-management-2026-guide.html) | 14 min |
 | [Building Production Flutter Plugins: A 156-Likes pub.dev Case Study](https://ishaqhassan.dev/blog/building-production-flutter-plugins-case-study.html) | 11 min |
-| [How a Pakistani Engineer Got 9 PRs Merged Into Flutter's Official Framework](https://ishaqhassan.dev/blog/how-i-got-6-prs-merged-into-flutter.html) | 10 min |
+| [How a Pakistani Engineer Got 10 PRs Merged Into Flutter's Official Framework](https://ishaqhassan.dev/blog/how-i-got-6-prs-merged-into-flutter.html) | 10 min |
 <!-- BLOG-POST-LIST:END -->
 
 ➡️ [More articles on ishaqhassan.dev/blog](https://ishaqhassan.dev/blog/)
