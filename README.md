@@ -12,6 +12,7 @@
 [![Flutter Framework Contributor Pakistan](https://img.shields.io/badge/Flutter_Framework_Contributor_Pakistan-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://ishaqhassan.dev/flutter-framework-contributor-pakistan.html)
 [![Flutter Expert Pakistan](https://img.shields.io/badge/Flutter_Expert_Pakistan-13B9FD?style=for-the-badge&logo=flutter&logoColor=white)](https://ishaqhassan.dev/flutter-expert-pakistan.html)
 [![Flutter Course in Urdu](https://img.shields.io/badge/Flutter_Course_in_Urdu-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://ishaqhassan.dev/flutter-course-urdu.html)
+[![Top Flutter Engineers 2026](https://img.shields.io/badge/Top_Flutter_Engineers_2026-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://ishaqhassan.dev/top-flutter-engineers.html)
 
 <img src="https://komarev.com/ghpvc/?username=ishaquehassan&label=Profile%20views&color=0e75b6&style=flat" />
 
@@ -23,13 +24,13 @@
 
 **Flutter Framework Contributor from Pakistan.** 13+ years in software engineering, based in Karachi. Currently **Engineering Manager** at [DigitalHire](https://digitalhire.com), building the world's first integrated talent engine.
 
-I contribute directly to the **Flutter ecosystem**. **10 Pull Requests merged into the official Flutter org repos** (8 in [flutter](https://github.com/flutter/flutter), 2 in [devtools](https://github.com/flutter/devtools)) with 2 more in active review on [flutter](https://github.com/flutter/flutter). Working on widget rendering, animation APIs, documentation, cross-fade transitions, test framework docs, and DevTools UI internals.
+I contribute directly to the **Flutter ecosystem**. **10 Pull Requests merged into the official Flutter org repos** (8 in [flutter](https://github.com/flutter/flutter), 2 in [devtools](https://github.com/flutter/devtools)) with 3 more in active review on [flutter](https://github.com/flutter/flutter). Working on widget rendering, animation APIs, documentation, cross-fade transitions, test framework docs, and DevTools UI internals.
 
 Instructor of the **Flutter Urdu course** officially listed on [docs.flutter.dev/resources/courses](https://docs.flutter.dev/resources/courses). GDG Kolachi Mentor. 50+ production apps shipped.
 
 ---
 
-### 🔥 Flutter Ecosystem PRs (10 Merged + 2 Open)
+### 🔥 Flutter Ecosystem PRs (10 Merged + 3 Open)
 
 Contributions across the [official Flutter org repos](https://github.com/flutter), the framework and tooling that millions of developers use:
 
@@ -47,6 +48,7 @@ Contributions across the [official Flutter org repos](https://github.com/flutter
 | [#9822](https://github.com/flutter/devtools/pull/9822) | devtools | Fix SplitPane RangeError when child count changes between rebuilds | ✅ Merged |
 | [#186142](https://github.com/flutter/flutter/pull/186142) | flutter | Update iOS section of AppLocalizations template to current Xcode workflow | 🔄 Open |
 | [#183062](https://github.com/flutter/flutter/pull/183062) | flutter | Reset AppBar _scrolledUnder flag when scroll context changes | 🔄 Open |
+| [#190130](https://github.com/flutter/flutter/pull/190130) | flutter | Forward --build-name and --build-number to desktop version.json | 🔄 Open |
 
 Areas: widget rendering, animation APIs, parameter forwarding, `AnimatedCrossFade` internals, test framework docs, DevTools UI, documentation accuracy.
 
