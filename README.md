@@ -30,12 +30,13 @@ Instructor of the **Flutter Urdu course** officially listed on [docs.flutter.dev
 
 ---
 
-### 🔥 Flutter Ecosystem PRs (11 Merged + 2 Open)
+### 🔥 Flutter Ecosystem PRs (12 Merged + 2 Open)
 
 Contributions across the [official Flutter org repos](https://github.com/flutter), the framework and tooling that millions of developers use:
 
 | PR | Repo | Title | Status |
 |:---|:-----|:------|:------:|
+| [#191308](https://github.com/flutter/flutter/pull/191308) | flutter | Expose skipTraversal in FocusableActionDetector | ✅ Merged |
 | [#190130](https://github.com/flutter/flutter/pull/190130) | flutter | Forward --build-name and --build-number to desktop version.json | ✅ Merged |
 | [#186943](https://github.com/flutter/flutter/pull/186943) | flutter | Document moveStep direction on WidgetController.dragUntilVisible | ✅ Merged |
 | [#185938](https://github.com/flutter/flutter/pull/185938) | flutter | Add blendMode parameter to RawImage and RenderImage | ✅ Merged |
